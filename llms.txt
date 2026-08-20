@@ -40,7 +40,7 @@ Raw base: https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-
 
 - Tolman static-frame reduction (Branch Z/E + kill conditions): https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/draft6/prereg/tolman_static_reanalysis.md
 - T4 secondary-maximum clock (Amendments 1–3): https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/draft6/prereg/secondary_maximum_phase.md
-- DES-Dovekie recalibration rerun: https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/v8/DOVEKIE_RERUN_PREREG.md
+- DES-Dovekie recalibration rerun (EXECUTED post-registration: Delta chi2 = +1.8, robust; L_BBC -11.7 -> -2.4): https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/v8/DOVEKIE_RERUN_PREREG.md
 
 ## Frozen numerical outputs
 
