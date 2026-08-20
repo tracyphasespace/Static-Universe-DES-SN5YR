@@ -10,6 +10,14 @@ The PDF is in [`paper/`](paper/).
 > "reserved archive DOI 10.5281/zenodo.22022089" — that is the *methods*
 > paper's DOI. This paper's correct DOI is **10.5281/zenodo.22025329**.
 
+> **Draft 6 in preparation:** the post-referee proof-ledger work —
+> d_A = D derivation and Etherington-duality signature, the wake wave
+> equation (b = 1 as an identity), the self-falsified passband-artifact
+> hypothesis, the pre-registered Tolman static-frame reduction, and the
+> executed T4 species-clock test (inconclusive, fully disclosed) — is in
+> [`draft6/`](draft6/), provenance-stamped. The revised paper and new DOI
+> will be added to `paper/` when published.
+
 ## The two papers, and what lives where
 
 | paper | claim | code |
