@@ -1,42 +1,57 @@
 # Static Universe DES-SN5YR — Two-Component Scattering
 
-Companion code repository for *"A Static-Universe Two-Component Scattering
-Interpretation of DES-SN5YR Supernovae"* (T. McSheery, Draft 5, 20 August
-2026), published at DOI
-[10.5281/zenodo.22025329](https://doi.org/10.5281/zenodo.22025329).
-The PDF is in [`paper/`](paper/).
+Companion code repository for *"A Static-Universe Two-Channel Photon
+Propagation Model Confronted with DES-SN5YR"* (T. McSheery, **Draft 6.0,
+post-referee revision**, 20 August 2026), published at DOI
+[10.5281/zenodo.22031121](https://doi.org/10.5281/zenodo.22031121).
+The PDF is in [`paper/`](paper/) (md5-verified against the Zenodo deposit).
+Draft 6 supersedes Draft 5
+([10.5281/zenodo.22025329](https://doi.org/10.5281/zenodo.22025329), also
+kept in `paper/`).
 
-> **Erratum (pending v2):** the published Draft 5 PDF's front matter cites
-> "reserved archive DOI 10.5281/zenodo.22022089" — that is the *methods*
-> paper's DOI. This paper's correct DOI is **10.5281/zenodo.22025329**.
+> **Draft 5 erratum — resolved in Draft 6:** the Draft 5 PDF's front
+> matter cited the methods paper's DOI as its own; Draft 6's front matter
+> carries the correct DOI chain (current 22031121, supersedes 22025329,
+> companion methods 22022089).
 
-> **Draft 6 in preparation:** the post-referee proof-ledger work —
-> d_A = D derivation and Etherington-duality signature, the wake wave
-> equation (b = 1 as an identity), the self-falsified passband-artifact
-> hypothesis, the pre-registered Tolman static-frame reduction, and the
-> executed T4 species-clock test (inconclusive, fully disclosed) — is in
-> [`draft6/`](draft6/), provenance-stamped. The revised paper and new DOI
-> will be added to `paper/` when published.
+The post-referee proof-ledger work behind Draft 6 —
+the d_A = D derivation and Etherington-duality signature, the wake wave
+equation (b = 1 as an identity), the self-falsified passband-artifact
+hypothesis, the pre-registered Tolman static-frame reduction, and the
+executed T4 species-clock test (inconclusive, fully disclosed) — is in
+[`draft6/`](draft6/), provenance-stamped.
 
 ## The two papers, and what lives where
 
 | paper | claim | code |
 |---|---|---|
 | [Methods paper](https://doi.org/10.5281/zenodo.22022089) ([repo](https://github.com/tracyphasespace/Model-Discrimination-DES-SN5YR)) | BBC-layer leverage measurement — no cosmological claim | Hubble-diagram fits, bracket, projection, probes, Camilleri amplitude comparison, manifest CI |
-| **This paper** ([Zenodo](https://doi.org/10.5281/zenodo.22025329)) | the static two-channel propagation interpretation | this repository |
+| **This paper** ([Zenodo](https://doi.org/10.5281/zenodo.22031121), Draft 6) | the static two-channel propagation interpretation | this repository |
 
 The papers are logically independent: the leverage measurement stands
 whatever one thinks of this interpretation.
 
-## Claim-to-script map (paper section → code)
+## Claim-to-script map — Draft 6 (paper section → source)
 
-| paper section | claim | script / source |
+| Draft 6 section | claim | source |
+|---|---|---|
+| §3.1–3.2 | wake field; b = 1 as an identity in W = ∂t ln n | [`draft6/docs/WAKE_FIELD_FORMULATION.md`](draft6/docs/WAKE_FIELD_FORMULATION.md) |
+| §3.3–3.4, Eq. (16) | chromatic depletion; phase-flat Q(z) = 0.979/0.964/0.944 at z = 0.25/0.5/1.0; τ∞,B = 0.594 | [`draft6/docs/SPECTRAL_CLOCKS.md`](draft6/docs/SPECTRAL_CLOCKS.md), `draft6/src/rawframe/da_tolman.py` |
+| §4 | passbands cannot manufacture b = 1 (≤ 0.05% stretch, ≤ 0.05 d peak shift, remap off) | `draft6/src/rawframe/transfer_integral.py` |
+| §5 | released Hubble diagram Δχ² = +1.1; BBC leverage L = −11.7 (methods layer) | **[companion methods repo](https://github.com/tracyphasespace/Model-Discrimination-DES-SN5YR)** — CI-verified there |
+| §6.2 | T4 iron-group clock: b₂ = 0.52 ± 0.78, N = 120, inconclusive, full trail | [`draft6/prereg/secondary_maximum_phase.md`](draft6/prereg/secondary_maximum_phase.md), [`draft6/docs/T4_RUN_REPORT.md`](draft6/docs/T4_RUN_REPORT.md), `draft6/src/rawframe/secondary_max_test.py` |
+| §7, Eq. (24)–(28) | Tolman: static-frame n_R ≃ 1.45, n_I ≃ 2.30; frame-invariant band spread 3.7σ; preregistered reduction | [`draft6/docs/DA_TOLMAN_DERIVATION.md`](draft6/docs/DA_TOLMAN_DERIVATION.md), [`draft6/prereg/tolman_static_reanalysis.md`](draft6/prereg/tolman_static_reanalysis.md), `draft6/src/rawframe/tolman_frame_shift.py` |
+| §8 | energy/image ledger: 16% by z = 1, prompt cascade, no optical halos | `draft6/docs/DA_TOLMAN_DERIVATION.md` §6 |
+
+## Draft 5 legacy map (scripts still shipped and runnable)
+
+| Draft 5 section | claim | script / source |
 |---|---|---|
 | §5–6.2, Eq. (12)–(13) | static probe law; Δχ² = +1.1 released, +12.8 pre-BBC, L_BBC = −11.7; Camilleri amplitude comparison | **companion repo** — `bracket.py`, `envelope.py`, `probes.py` (CI-verified there) |
 | §4 | chromatic rise/decay fingerprints: 0.5–3.4 mmag, g:r:i:z ≈ 1.00:0.78:0.45:0.10 at z = 0.5 | `src/sne_wien_lightcurve_shift.py` (toy blackbody), `src/sne_wien_realSED.py` (Hsiao real-SED pass), `src/sne_open_items_b1.py`; registered outputs + the 2026-08-03 pre-registration in [`registered/`](registered/) |
 | §6.3 | SALT-free raw-photometry transfer fit | `src/transfer_pipeline.py` — the **b = 1 canon-updated pipeline** (see status note below) |
 
-## Status note on §6.3 — read this before comparing numbers
+## Status note on Draft 5 §6.3 — read this before comparing numbers
 
 The paper reports a prior fit (3,882 SNe, 0.40 mag scatter) and correctly
 labels it *partial consistency*: that implementation used a since-withdrawn

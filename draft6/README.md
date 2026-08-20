@@ -1,8 +1,10 @@
 # Draft 6 working analysis — the proof ledger
 
-Public support material for the **Draft 6 revision** of the static-universe
-paper (revising [10.5281/zenodo.22025329](https://doi.org/10.5281/zenodo.22025329);
-the revised PDF and new DOI will be added to `paper/` when published).
+Public support material for **Draft 6.0** of the static-universe paper —
+**published 20 August 2026 at DOI
+[10.5281/zenodo.22031121](https://doi.org/10.5281/zenodo.22031121)**
+(supersedes Draft 5, 10.5281/zenodo.22025329); the PDF is in
+[`../paper/`](../paper/Static_Universe_DES_SN5YR_Draft6_Zenodo.pdf).
 Everything here is a verbatim provenance copy from the campaign repository
 at commit `226f83d` (2026-08-20). Every number in the documents regenerates
 from the scripts in `src/rawframe/`.
