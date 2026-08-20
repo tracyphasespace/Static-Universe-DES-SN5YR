@@ -91,7 +91,69 @@ The consistent two-level structure, to be stated explicitly in 6.1:
    construction, with the coefficient's microphysical derivation open"
    — per the reviewer's suggestion, adopted.
 
-## 4. Disposition of the two reviews' Issue-1 bullets
+## 4. Adopted refinements (third review, 2026-08-20)
+
+**4a. The cleaner statement of §1** (replaces the prose argument in
+Draft 6.1): at the front, r = ct, so along the actual trajectory
+
+  dn/dt = ∂ₜn + ṙ·∂ᵣn = K + c·(−K/c) = **0**.
+
+The front rides a surface of constant n = 1 while experiencing
+∂ₜ ln n = K — the partial derivative (which redshifts) and the total
+derivative (which is what the erroneous objection integrated) are
+different derivatives. Experimental precedent that spatiotemporal
+index fronts convert photon frequency without any global index change:
+photon acceleration / moving-index-front experiments (e.g. optical
+push-broom in Bragg waveguides). Existence of the *mechanism class* is
+laboratory physics; what QFD owes is the specific vacuum realization.
+
+**4b. Minimal kinetic closure** (the "minimal form satisfying C1–C6"
+both reviews asked for — an effective kinetic equation, explicitly NOT
+yet a Lagrangian): with n = 1 + χ/2,
+
+  ∂ₜχ = 2K · H[I(x,t)] · H[χ_sat − χ] − χ/T_relax,  χ(x, t < r/c) = 0,
+
+with H a step (drive-saturated switch), T_relax ≫ t_burst, and
+χ_sat/2K = T_sat. Behind a front this integrates to exactly Eq. A,
+χ = 2K(t − r/c), during the unsaturated window; steady illumination →
+saturation (under-dilation of steady sources); relaxation feeds the bath
+(FORWARD_ENERGY_LEDGER.md). All six data-derived constraints are
+satisfied by construction. **The open microphysics is unchanged in
+content but now precisely located: derive this kinetic equation — the
+intensity-independent rate 2K tied to the drag vertex, T_relax, and
+χ_sat — from the QFD vacuum action (the W = K from β debt).** Until
+then the wake is kinematically consistent and kinetically modeled, not
+derived; Draft 6.1 should say exactly that.
+
+## 5. Lookback time and the stationarity fork (new — and all three reviews missed half of it)
+
+The galaxy-age objection ("static = no lookback time") is wrong as
+stated: light travel time gives **t_lb(z) = D/c = K⁻¹·ln(1+z)** from the
+model's own distance law. But finite lookback produces a *systematic*
+age–z trend only if the universe evolves globally on ~1/K timescales.
+A strictly stationary eternal ensemble shows the SAME population at
+every lookback — galaxies age individually, the ensemble does not (this
+is what killed classical steady state, and it cannot be waved at). The
+model must therefore choose a fork, explicitly:
+
+- **Fork A — strict stationarity:** the observed Balmer/fundamental-
+  plane aging at z ~ 0.5–0.9 stays an adverse observation, full stop.
+- **Fork B — static geometry, secularly evolving contents:** aging over
+  t_lb is natural. The rest of the structure survives: with
+  t_therm < 25 Myr the bath tracks sources adiabatically, so FIRAS
+  Planckness needs fast kinetics, not eternity; wake saturation is
+  corridor-local and indifferent. Cost: the model gives up "no cosmic
+  clock" and inherits a synchronization/age question comparable to
+  ΛCDM's t₀. Gain: a new discriminator — does measured stellar aging
+  follow K⁻¹ln(1+z) or the FLRW lookback? (≈20% different at z ~ 0.9,
+  strongly divergent at high z), and the unbounded static lookback
+  (34 Gyr at z = 10) dissolves rather than worsens the JWST
+  early-massive-galaxy tension — flagged for development, not claimed.
+
+Draft 6.1 should adopt Fork B openly or defend Fork A; silence invites
+the steady-state objection with its historical force.
+
+## 6. Disposition of the two reviews' Issue-1 bullets
 
 | assertion | verdict |
 |---|---|

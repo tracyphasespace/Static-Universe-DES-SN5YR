@@ -74,6 +74,37 @@ the static frame does not). Extrapolating the measured response:
    report n per band with the full error budget (photometric, slope,
    aperture-η choice, K-correction).
 
+## Amendment 1 (2026-08-20, PRE-REDUCTION — no L&S photometry has been
+## fetched or inspected)
+
+The registration's step 4 ("zero-evolution constraint enforced; no
+band-dependent evolution term is available to the static model") was
+**physically too strong**: a static geometry still has light-travel
+lookback t_lb(z) = D/c = K⁻¹·ln(1+z), so stellar aging over the photon's
+journey is not excluded by staticity — it is excluded only under strict
+ensemble stationarity (the fork analyzed in WAKE_CONSISTENCY.md §5).
+Correction, without erasing the original registration:
+
+- **Branch Z (as originally registered):** zero-evolution strict test,
+  kill conditions K1/K2 unchanged. This remains the primary registered
+  analysis.
+- **Branch E (added pre-reduction):** luminosity/color evolution
+  permitted, but **constrained independently** by stellar-population
+  models evaluated at the static lookback t_lb = K⁻¹·ln(1+z) — the
+  evolution amplitude is computed from external stellar-physics inputs,
+  NEVER fitted to the Tolman residuals. Kill condition K1-E: if the
+  static-frame reduction with independently-constrained Branch-E
+  evolution still departs from the predicted n_eff(λ) at > 3σ, the model
+  fails Tolman under both branches.
+- **Anti-goalpost clause:** Branch E may not be invoked to explain the
+  band spread post hoc unless the stellar-population calculation,
+  committed before the reduction, quantitatively predicts the spread's
+  sign and magnitude from color evolution over t_lb.
+- Bonus discriminator recorded: the aging–redshift relation itself
+  (Balmer/fundamental-plane data) can be tested against K⁻¹ln(1+z) vs
+  FLRW lookback — an independent test, to be registered separately if
+  pursued.
+
 ## 3. Kill conditions (pre-committed)
 
 - **K1 (joint exponent test):** if the full static-frame reduction yields

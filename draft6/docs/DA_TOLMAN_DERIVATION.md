@@ -114,6 +114,13 @@ migrates to R-band, and the **frame-invariant** discrepancy is the band
 spread n_I − n_R = 0.78 ± 0.21 vs predicted −0.02 (3.7σ in any frame).
 Kill conditions pre-committed in the registration before any data reduction.
 
+**Correction (2026-08-20, later):** this document's claim that "the
+eternal universe forbids luminosity evolution — the escape valve is not
+available" was too strong. Static geometry has finite lookback
+t_lb = K⁻¹ln(1+z); evolution is forbidden only under strict ensemble
+stationarity. See WAKE_CONSISTENCY.md §5 (the stationarity fork) and the
+Tolman registration's pre-reduction Amendment 1 (Branch Z / Branch E).
+
 ## 3. Secondary geometric discriminator: the angular-size–redshift relation
 
 With θ ∝ 1/D = K/(c·ln(1+z)), apparent sizes decrease monotonically for
