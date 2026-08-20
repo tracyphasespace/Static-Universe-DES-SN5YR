@@ -1,0 +1,705 @@
+AUTO-EXTRACTED PLAINTEXT of "A Static-Universe Two-Channel Photon
+Propagation Model Confronted with DES-SN5YR", Version 8.0
+(human-circulation freeze), T. McSheery, 20 August 2026.
+DOI: 10.5281/zenodo.22032094
+Canonical artifacts: paper/Static_Universe_DES_SN5YR_V8_Zenodo.pdf
+  (SHA-256 8c86666b06e7090d892ebc2a640c7f8e66a2e9d320b1d56de7ab636757f42a16)
+and paper/Static_Universe_DES_SN5YR_V8.tex (full-fidelity LaTeX source,
+SHA-256 7a00004226f309f2f7f03c05001ea8d61c317d1cd52ab3b2caae98f136bb350e).
+This file is a pypdf text extraction for AI/scraper convenience; spacing
+around inline math may be imperfect. Prefer the .tex for equations.
+================================================================
+A Static-Universe Two-Channel Photon Propagation Model Confronted
+with DES-SN5YR
+A Standalone Adversarial Test of Redshift, Temporal Remapping, Chromatic Transfer, Surface
+Brightness, and Energy Closure
+T. McSheery
+PhaseSpace Inc., San Leandro, CA, USA
+TracyMcSheery@gmail.com
+20 August 2026
+Version 8.0 — human-circulation freeze
+Current archive DOI: 10.5281/zenodo.22032094
+Prior records preserved as provenance: V7 10.5281/zenodo.22031627; Draft 6 10.5281/zenodo.22031121; Draft 5
+10.5281/zenodo.22025329
+Independent methods archive: 10.5281/zenodo.22022089
+Canonical code and audit trail: github.com/tracyphasespace/Static-Universe-DES-SN5YR
+Abstract
+This paper asks a deliberately adversarial question: can the principal Type Ia supernova ob-
+servables normally interpreted as evidence for metric expansion be reproduced by a non-expanding
+Euclidean spatial geometry with two photon–vacuum propagation channels, while surviving the
+classical tests that eliminate simpler tired-light models? “Static” here means no large-scale metric
+expansion; Version 8 explicitly allows source populations and cosmic contents to evolve with emission
+epoch and therefore does not assume a stationary eternal galaxy ensemble.
+The first propagation channel is coherent and direction preserving. At effective level it has
+two observable faces that must ultimately be derived from one microscopic vertex. An inelastic
+frequency-shift face givesd lnν/dD =−K/c, henceD = (c/K) ln(1 +z) for steady and transient
+sources. A distinct reactive group-delay face is represented as a direction-resolved phase-space
+susceptibilityχ(x, ˆk,t ) responding to temporal structure above the saturated DC background of a
+propagation cell. Along one supernova ray its characteristic group-slowness factor isng = 1 +κrKξ,
+with ξ =t−r/c measured behind the transient front. The leading front remains onng = 1 while a
+trailing independent photon obeysd ln ∆t/dD =κrK/c, giving ∆tobs = ∆tem(1 +z)κr. DES-SN5YR
+measuresb = 1.003±0.005 (stat)±0.010 (sys), requiringκr≃ 1. The kinematics are therefore explicit
+and causal without optical coherence between photons; the unresolved microscopic problem is to
+derive the equality between the reactive rate and the inelastic drag rate from the vacuum action
+rather than impose it phenomenologically.
+A second, non-forward channel hasσnf∝E1/2∝λ−1/2. The physically defined rest-B asymptotic
+optical depth corresponding to the DES fit isτ∞,B = 0.594, removing 10.3% of the coherent beam
+at z = 0.5 and 16.0% atz = 1. On the released DES-SN5YR Hubble diagram, the resulting
+one-parameter static distance law is nearly degenerate with one-parameter flatΛCDM: χ2≃ 1641.1
+versus 1640.1 on the default 1,768-object diagnostic sample,∆χ2 = +1.1, with bothχ2/dof≃ 0.93.
+Several tempting supporting mechanisms were then tested rather than retained. A full Hsiao-
+SED× measured-DECam-filter calculation shows that Wien/passband slicing plus the chromatic
+opacity changes fitted stretch by at most5× 10−4 and peak epochs by at most 0.05 d when the
+temporal remap is disabled; it cannot manufacture the observedb≃ 1. A preregistered iron-group
+secondary-maximum clock measured on raw DESi/z photometry givesb2 = 0.52± 0.78 from 120
+1
+detections: explicitly inconclusive, consistent with both universal remapping and no dilation because
+DES cadence and thez ≲ 0.3 visibility window are underpowered.
+The strongest present empirical threat is the Tolman surface-brightness test. The model predicts
+DA = D = (c/K) ln(1 +z) and I∝ (1 +z)−2e−τλ. Re-expressing the published Lubin–Sandage
+distance sensitivity in the static frame removes the nominalI-band crisis but moves tension toR;
+the approximately frame-invariant observed spreadnI−nR = 0.78± 0.21 differs from the model
+prediction≃− 0.02 by about 3.7σ before a full static-frame re-reduction. The paper also closes the
+previously omitted forward-energy ledger: atz = 1 the coherent frequency shift transfers 50% of
+each photon’s emitted energy out of the observed photon, while the non-forward branch removes a
+further 16% of the surviving beam in restB. Applying the same frequency drift to the microwave
+bath predicts the independently observed scalingTCMB(z) =T0(1 +z); atz = 2.41837 it gives 9.315
+K versus9.15± 0.72 K from CO excitation. This is a consistency success shared with FLRW, not
+a discriminator. Preserving Planck normalization in a static volume then requires an additional
+shape-preserving photon-number relaxation at rate3K, whose microphysics is not identified here,
+while the CMB acoustic/polarization/lensing and BAO-correlated structure remains unmodeled.
+Version 8 therefore does not claim a completed cosmology. It claims a sufficiently specified supernova
+alternative with explicit adverse tests and a finite microscopic closure problem suitable for human
+review.
+1 Thesis, scope, and terminology
+The thesis tested in this paper is:
+Thesis. A non-expanding Euclidean spatial geometry with two photon–vacuum propagation
+channels can reproduce the observed achromatic redshift, the approximately(1+z) temporal
+broadening of supernova signals, and the DES-SN5YR luminosity-distance relation without
+a dark-energy acceleration term. The same transfer law must then survive independent
+tests of chromaticity, angular distance, surface brightness, radiance, image sharpness, source-
+population evolution, and energy conservation.
+Three distinctions are load bearing.
+First, static geometry is not stationary contents. Light still has finite travel time. For the distance
+law derived below,
+tlb(z) = D(z)
+c =K−1 ln(1 +z). (1)
+Version 8 therefore adopts the logically available branch “static spatial geometry, evolving contents.”
+Observed stellar-population evolution, the cosmic star-formation history, quasar evolution, and related
+redshift trends are not switched off; they become constraints on the history of matter and sources
+evaluated against Eq.(1). This costs any claim that the observed universe is a strictly stationary eternal
+ensemble.
+Second, the model is not classical tired light. Classical energy-loss models generally predict no
+macroscopic time dilation and often introduce chromaticity or image blur. Here redshift, transient
+timing, and non-forward chromatic depletion are separate observables with separate failure modes.
+Third, the paper follows an anti-confirmation-bias rule. A mechanism that fails a registered test is
+retained as a null result, not reinterpreted. An underpowered measurement is labeled inconclusive. An
+adverse observable is placed in the same status ledger as favorable ones. The public repository preserves
+preregistration amendments, implementation defects, and superseded mechanisms.
+2
+2 Physical motivation without microscopic overclaiming
+Nonlinear electromagnetic propagation is not a forbidden category. The Euler–Heisenberg effective
+action predicts nonlinear QED interactions, and SLAC E-144 observed nonlinear Compton processes
+and multiphoton pair production using an intense laser and a high-energy electron beam (Burke et al.,
+1997; Bamber et al., 1999). Those experiments do not establish the cosmological interaction proposed
+here, and they do not supply its rate. They establish only that a nonlinear vacuum electromagnetic
+response is physically meaningful.
+The present object is therefore aneffective propagation model. Its coefficients are constrained by
+astronomical observations. A successful microscopic theory must derive them from the underlying
+vacuumdynamicswhilerespectingspectral-linecoherence, imagesharpness, polarization, locallaboratory
+constraints, energy conservation, and the CMB. Where that derivation is absent, the paper says so
+explicitly.
+3 Effective two-face forward vertex
+3.1 Inelastic coherent face: universal frequency drift
+The coherent forward interaction is assumed direction preserving and achromatic in fractional energy
+loss. At the effective level the same drift law applies to directed source photons and to photons in the
+diffuse bath,
+dE
+dD =−K
+c E, dν
+dD =−K
+c ν. (2)
+Integrating gives
+1 +z = νem
+νobs
+=eKD/c, D(z) = c
+K ln(1 +z). (3)
+The same fractional shift applies to all spectral coordinates,
+λobs = (1 +z)λem. (4)
+A thermal spectral shape therefore has its Wien peak mapped to the coordinate temperatureT/(1 +z).
+This statement concerns spectral coordinates only; full Planck radiance normalization is a separate test
+in Section 9.
+Equation (2) is the redshift face of the effective vertex. It does not require a preconditioned corridor
+and remains active for steady galaxy light. It also creates a substantial energy ledger: by redshiftz, the
+photon has transferred the fraction
+ffwd(z) = 1− 1
+1 +z = z
+1 +z (5)
+out of the observed photon. Atz = 1, ffwd = 0.5. Section 11 treats the destination of this energy as a
+required closure condition.
+3.2 Reactive face: direction-resolved phase-space memory
+The temporal problem is different. A time-translation-invariant, unchanged medium cannot stretch
+the arrival interval between mutually incoherent photons emitted days apart. The model therefore
+assigns a second, reactive face to the same effective interaction: a weak,direction-resolvedgroup-delay
+susceptibility produced by temporal structure in the radiation field above its saturated DC background.
+3
+The memory variable is not a bulk scalar refractive index. It is a phase-space responseχ(x, ˆk,t )
+associated with a propagation-direction cell (and, microscopically, potentially polarization). Foreign
+rays crossing the same spatial point occupy differentˆk cells and therefore do not automatically add to
+the same memory state. Along the one-ray characteristic of a supernova, define
+ξ =t− r
+c (6)
+and the effective group slowness factor
+ng(x, ˆk,t )
+⏐⏐
+ray = 1 +κrKξ, 0<ξ <T sat. (7)
+Here ng is shorthand for the one-ray characteristic of the reactive susceptibility, not a scalar property
+of the bulk vacuum. The coefficientκr measures the reactive rate relative to the inelastic drift rateK.
+The leading transient front sits atr =ct, henceξ = 0 and ng = 1 for its entire trajectory. Explicitly,
+dng
+dt =∂tng + ˙r∂rng =κrK +c
+(
+−κrK
+c
+)
+= 0. (8)
+This is the point that resolves the earlier distance-law objection: the local transient index excursion can
+be tiny even though the propagation effect accumulates over a cosmological path. The leading front is
+never slowed toc/(1 +z); it rides the movingξ = 0 surface.
+Now consider a trailing photon emitted independently a time∆t later. It samples ξ = ∆t and
+therefore, to first order,
+d∆t
+dD = κrK
+c ∆t. (9)
+Thus
+∆tobs = ∆temeκrKD/c = ∆tem(1 +z)κr. (10)
+The measured supernova time-dilation exponent is therefore
+b =κr. (11)
+White et al. measure (White et al., 2024)
+b = 1.003± 0.005 (stat)± 0.010 (sys), (12)
+so the effective response requiresκr≃ 1.
+This formulation uses no mutual optical coherence between photons. The corridor field is the shared
+memory variable. It is also more honest than the earlier claim thatb = 1 was already a microscopic
+identity: at effective levelthe measured coefficient fixes the equality of the reactive and inelastic rates.
+Deriving κr = 1 from a single microscopic vacuum vertex is still owed.
+3.3 What defines ξ = 0 in a permanently illuminated universe?
+A sharpened referee objection asks what “the transient front” means when the line of sight has been
+illuminated by the host galaxy and diffuse backgrounds for gigayears. The effective answer is a two-level
+response:
+(i) The inelastic coherent face, Eq.(2), is the universal frequency-drift channel. It redshifts steady
+galaxy light without requiring growth of the reactive memory.
+4
+(ii) The reactive face is an AC response in a direction-resolved phase-space cell. The steady host
+contribution defines the saturated DC background of that cell; variabilityδfˆk(t) activates the
+time-dependent response without summing unrelated transients from other directions into the
+same scalar field. For a supernova,ξ = 0 is the onset of the event’s directional transient above its
+local DC state.
+A generic effective kinetics, not yet a Lagrangian derivation, is therefore written
+∂tχˆk =R[δfˆk]− χˆk
+Trelax
+, n g
+⏐⏐ˆk = 1 +χˆk
+2 . (13)
+A previously used Heaviside/saturation switch is only an existence sketch; it is not retained as the
+physical response law because a real response must handle both rising and declining light-curve structure.
+The operatorR must select the appropriate direction/polarization phase-space cell while keeping the
+activated-cell rate set by the medium rather than by beam intensity. Equation(13) specifies what the
+microphysics must produce, not evidence that it does. A successful underlying theory must derive the
+universal drift rateK, the empirical reactive coefficientκr≃ 1, the angular and temporal coarse-graining
+scale, saturation behavior, and relaxation time from one vacuum response.
+This sourcing split removes the false dichotomy between a globaln(t) and independent per-wavepacket
+wakes. Redshift is a universal frequency-drift process, while timing is a direction-resolved transport
+memory shared by later photons in the same event cell. Whether one microscopic vertex can actually
+generate both faces with the required coefficient equality is the central theoretical debt of Version 8.
+4 Non-forward chromatic channel
+The second propagation channel removes photons from the coherent image-forming beam with an
+energy-dependent probability. The working scaling is
+σnf(E)∝E1/2∝λ−1/2. (14)
+Along the redshifting path this gives the rest-frame optical depth
+τλ(z) =τ∞,λ
+[
+1− (1 +z)−1/2
+]
+, τ ∞,λ =τ∞,B
+(440 nm
+λ
+)1/2
+. (15)
+The physical magnitude attenuation is
+∆mλ = 2.5
+ln 10τλ. (16)
+Earlier versions used a5/ ln 10 bookkeeping coefficient; the fitted amplitude is unchanged, but its
+physical interpretation doubles. The rest-B asymptotic optical depth is therefore
+τ∞,B = 0.594. (17)
+It removes 10.3% of rest-B coherent-beam photons atz = 0.5 and 16.0% atz = 1.
+The complete observer-frame transfer operator used in the synthetic tests is
+Fobs(λo,to) =A(z)e−τ(λo/(1+z),z)S
+( λo
+1 +z, to
+(1 +z)κr
+)
+, (18)
+whereS(λ,t ) is the intrinsic SN spectral-time surface. No factor in Eq.(18) knows which atomic species
+produced a feature; species physics determinesS, while propagation acts on the entire surface. That
+universality is falsifiable.
+5
+5 A mechanism tested and killed: passbands do not fakeb = 1
+A tempting explanation was that Wien displacement, finite observer filters, and phase-dependent
+chromatic attenuation might make an intrinsically undilated transient appear broader. This was tested
+directly rather than retained.
+Using the Hsiao SN-Ia spectral time series (Hsiao et al., 2007), measured DECamg,r,i,z throughput
+curves, Eq.(15), and the spectral coordinate shift, we generated synthetic light curves with the temporal
+remap in Eq. (18) disabled. The recovered stretch changes by at most
+|∆s|≤ 5× 10−4 (19)
+for z≤ 0.8 in every band, and recovered peak epochs move by at most 0.05 d. An independently
+preregistered inverse-injection test likewise returnedˆb = 0 for time-independent opacity, even when that
+opacity was amplified far beyond the fitted value. The structural reason is simple: a time-independent
+multiplicative spectral weight can reshape color and amplitude but does not remap the temporal
+coordinate.
+With the temporal remap enabled atκr = 1, the same transfer calculation recovers(1 +z) stretch to
+within 0.05% in each DES band. The chromatic branch therefore survives with a smaller, cleaner job:
+amplitude and color transfer, not time dilation.
+For phase-matched rest-frame windows near 330 and 650 nm the model predicts
+Q(z)≡ [F330/F650]z
+[F330/F650]z≃0
+=e−∆τ(z), (20)
+with
+Q(0.25) = 0.979, Q (0.5) = 0.964, Q (1) = 0.944. (21)
+The propagation component is predicted to be phase-flat at fixed rest wavelengths. Intrinsic line forma-
+tion and recombination evolve strongly with phase; phase-flatness is therefore part of the discriminant,
+not merely the amplitude trend.
+6 DES-SN5YR distance comparison
+6.1 Standalone likelihood definition
+The analysis uses the public DES-SN5YR v1.2 Hubble-diagram products, the officialzHD/zHEL con-
+vention, and the full released STAT+SYS covariance. The absolute-magnitude/distance-scale offset
+is analytically profiled. The default diagnostic sample excludes entries with effectively zero inverse-
+variance weight (MUERR > 10), leavingN = 1768; retaining all 1,829 released entries changes no
+quoted headline number.
+For the static law,
+µstat(zHD,z HEL) = 5 log10[(1 +zHEL) ln(1 +zHD)] (22)
++ 2.5
+ln 10τ∞,B
+[
+1− (1 +zHD)−1/2
+]
++M. (23)
+Flat ΛCDMis fitted with one shape parameterΩm and the same profiled offset. The physical opacity
+prior is non-negative; the numerical fit is bounded well above the optimum.
+The released-vector best fits are approximatelyΩm = 0.352 for flat ΛCDMand η = 0.297 in the
+historical magnitude-amplitude convention for the static law, equivalent to the physicalτ∞,B = 0.594
+6
+used here. The resulting fit values are
+χ2
+ΛCDM≃ 1640.1, χ 2
+stat≃ 1641.1, (24)
+so
+∆χ2≡χ2
+stat−χ2
+ΛCDM = +1.1, (25)
+with bothχ2/dof≃ 0.93. The maximum offset-removed separation of the two best-fit curves over the
+DES redshift range is approximately 0.055 mag.
+This is a deliberately narrow result. It is a one-dimensional SN distance comparison, not a global
+cosmological fit. BAO, CMB anisotropies, lensing, growth, nucleosynthesis, and source-population
+evolution are separate constraints and are explicitly retained in the open ledger below.
+6.2 Bias-correction sensitivity is methodological, not cosmological evidence
+For completeness, the companion methods analysis reconstructs a diagnostic vector before the event-level
+DES BBC magnitude correction. The pairwise statistic changes from+1.1 on the released vector to
++12.8 on that diagnostic vector, a total processing leverage of−11.7 χ2 units. The pre-BBC vector
+contains known survey-selection bias and the released covariance belongs to the corrected product, so
+this number is not evidence for the static model. It motivates a matched forward/BBC simulation under
+the alternative law. The full sign audit, covariance projections, robustness probes, and frozen-result CI
+live in the independent methods archive DOI 10.5281/zenodo.22022089; no result in the present paper
+requires accepting a cosmological interpretation of that leverage.
+The strongest existing DES counterargument is its explicit reference-cosmology validation. Camilleri
+et al. reran the bias-correction machinery under multiple reference cosmologies spanning distance-
+modulus variations of order 0.15 mag and found recovered cosmological shifts subdominant to the DES
+statistical uncertainty (Camilleri et al., 2024). The offset-removed separation between the released
+best-fit static curve and best-fit flatΛCDMis only about 0.055 mag, below that tested amplitude scale.
+This is relevant evidence that the BBC layer is not arbitrarily fragile. It is not, however, the same
+experiment as propagating the present non-FLRW transfer law through the simulation and selection
+pipeline: the published reference set is FLRW-family and the formal validation is shape dependent, not
+merely an amplitude bound. Version 8 therefore treats the matched alternative-reference rerun as a
+completion test, not as an assumed failure of DES calibration.
+7 Temporal universality and the executed T4 test
+White et al. find Eq. (12) from 1,504 DES Type Ia supernovae (White et al., 2024). Any static
+model withb = 0 is therefore excluded. In the present effective model, Eq.(10) makes this a direct
+measurement ofκr rather than an assumed optical-coherence effect.
+Blondin et al. measured multi-epoch spectra of high-redshift SNe Ia and found spectral aging
+consistent with a1/(1 +z) rate (Blondin et al., 2008). This is a physically different clock and rejects
+no-dilation models, but it still does not distinguish FLRW from a universal non-metric remap.
+To add a species-sensitive internal clock, we preregistered a test based on the Type Iai/z secondary
+maximum, which is associated with iron-group recombination and opacity/flux redistribution rather
+than one isolated atomic transition (Jack et al., 2015). The frozen primary regression was
+y =a +b2x +γ(x1− ¯x1) +ϵ, y = ln ∆tobs
+∆tmodel(z, band), x = ln(1 +z). (26)
+The universal-remap prediction isb2 = 1 and the no-dilation null isb2 = 0.
+7
+The executed result is
+b2 = 0.52± 0.78, N = 120. (27)
+It lies 0.6σ from 1 and 0.7σ from 0. Neither preregistered kill condition fires. The result is therefore
+inconclusive, not evidence for a mixture and not positive evidence for the model.
+The run nevertheless established why DESgriz cannot decide this test. Median per-SN secondary-
+maximum timing uncertainty was 5.3 d rather than the forecast 2 d; intrinsic bump diversity contributed
+about an 8 d equivalent spread; and the feature leaves DESgriz beyond roughlyz = 0.3. Approximately
+25 times the effective statistics would be required for a 3σ 0-versus-1 distinction under the realized
+noise. The detection-efficiency difference between low- and high-z bins was only 0.8σ.
+The complete audit trail is public. Pre-data amendments added an intercept, a frozen GP peak
+finder, censoring, and a hypothesis-neutral search window. The first executable pipeline then exposed
+single-epoch difference-imaging artifacts; a post-data 5σ leave-one-out screen and three implementation
+repairs were disclosed before any validb2 result existed. Version 8 keeps that history because the ability
+to report an unhelpful result is part of the experimental discipline.
+8 Chromatic color test already visible in DES
+The opacity law predicts an intrinsic redward trend approximately
+dcprop
+dz ≃ +0.019 mag/z, (28)
+with representativeE(B−V )≃ 0.007, 0.0125, 0.020 at z = 0.25, 0.5, 1 under a simple monochromatic
+mapping. On 1,635 DES-subset SNe the raw SALT color slope is instead
+dcraw
+dz =−0.0963± 0.0140 mag/z. (29)
+The opposite sign is not presently a clean propagation falsification because the flux-limited DES sample
+becomes strongly bluer with redshift under its own selection pipeline; the predicted signal is roughly
+five times smaller than the raw selection trend. The immediate inexpensive comparison is data minus
+the published FLRW+selection simulation as a function of redshift. A full alternative-reference BBC
+simulation remains the stronger end-to-end test. Version 8 therefore reports Eq.(29) rather than
+describing color as an unexamined future observable.
+9 Tolman surface brightness and radiance
+With static Euclidean geometry, a strictly forward coherent channel, and no transverse magnification
+from the tiny transient group-index perturbation,
+DA =D = c
+K ln(1 +z). (30)
+The energy-redshift and arrival-rate factors give, before non-forward attenuation,
+DL,0 = (1 +z)D, DL,0
+DA
+= 1 +z, (31)
+not the metric Etherington ratio(1 +z)2. Including Eq. (15),
+Iobs∝ (1 +z)−2e−τλ(z). (32)
+8
+Define the effective exponent byI∝ (1 +z)−neff,
+neff(z,λ ) = 2 + τλ(z)
+ln(1 +z). (33)
+Near the Lubin–Sandage cluster meanz≃ 0.86, the model predicts approximatelynR≃ 2.18 and
+nI≃ 2.16.
+Lubin and Sandage analyzed 34 early-type galaxies in three clusters nearz = 0.8–0.9 and reported
+nR = 2.59± 0.17 and nI = 3.37± 0.13 in theirq0 = 1/2 distance frame (Lubin & Sandage, 2001a,b).
+They also published the inferred exponents for otherq0 choices, directly exposing the distance-frame
+sensitivity of the placement on the local surface-brightness–linear-radius relation.
+Before retrieving a full per-galaxy static reduction, we preregistered an analytic frame-shift diagnostic
+using that publishedq0 grid. The measured response of the inferred exponent tologDA is approximately
+−3.41/dex inR and−3.17/dex inI. Extrapolating to Eq. (30) moves the nominal values to
+nR≃ 1.45± 0.17, n I≃ 2.30± 0.13. (34)
+Thus the often-quotedI-band crisis is highly frame dependent, but the problem does not disappear: it
+migrates toR. More importantly, the two bands move similarly under distance reassignment, leaving
+the approximately frame-invariant spread
+(nI−nR)L&S = 0.78± 0.21 (35)
+against the model prediction of approximately−0.02. This is a 3.7σ discrepancy before a modern
+systematic reanalysis.
+The analytic extrapolation extends about 3.5 times beyond theDA range over which the published
+q0 grid calibrates the response, so Eq.(34) is not a resolution. The full static-frame reduction is
+preregistered: re-place the observed angular Petrosian radii using Eq.(30), recompute transfer/K-
+corrections consistently, and report theI improvement,R migration, and band spread together.
+Version 8 also corrects an overrestriction in the original preregistration. Static geometry does not
+logically imply zero luminosity evolution because Eq.(1) is finite. Two branches are therefore preserved
+before data reduction: (Z) the originally registered zero-evolution test, and (E) stellar-population
+evolution computed independently at the static lookback time, with no evolution amplitude fitted to
+the Tolman residuals. If independently constrained evolution cannot reproduce the sign and magnitude
+of the band spread, it cannot be invoked post hoc as a rescue.
+The same duality difference creates a radiance test. A localized thermal source whose spectral
+coordinates are shifted toT/(1 +z) is, before opacity, brighter by(1 +z)2 than a true Planck surface
+at that shifted temperature. Expanding-photosphere measurements of Type II supernovae at moderate
+redshift therefore provide a separate distance/radiance discriminator.
+10 Global evolution is a real constraint, not a forbidden parameter
+The observation that galaxy populations, star-formation activity, and quasar populations vary strongly
+with redshift is not erased by static geometry. Large surveys show pronounced evolution in the cosmic
+star-formation-rate density (Madau & Dickinson, 2014). Version 8 therefore does not claim a strictly
+stationary eternal matter distribution.
+The adopted branch is: spatial geometry is static, while source populations may evolve with emission
+epoch. Their evolution must be described against the static lookback law Eq.(1), not fitted independently
+to each cosmological observable. This creates a new class of tests: stellar ages, fundamental-plane
+9
+evolution, star-formation history, and quasar demographics can be compared under the static and
+FLRW lookback functions. Atz∼ 0.9 the difference is modest enough that current stellar ages may not
+discriminate sharply; at higher redshift the histories diverge more strongly. No global population-history
+model is claimed here.
+Quasar variability now supplies a response-bandwidth constraint rather than the earlier proposed
+“steady-source under-dilation” signature, which is withdrawn. Brewer et al. (2025) find a cosmological
+dependence (1 +z)n withn = 1.14± 0.34, consistent with unity and robust to their alternative modeling
+assumptions (Brewer et al., 2025); Lewis & Brewer (2023) found a similar result (Lewis & Brewer, 2023).
+A quasar’s variability is an AC perturbationδfˆk(t) about a persistent DC source, so the direction-
+resolved reactive response may track the fluctuations while the DC component remains saturated.
+Existing decade-baseline measurements therefore constrain the bandwidth, saturation, and relaxation of
+R; if interpreted as one persistent memory cell they favor relaxation/memory scales extending to at least
+decades. Retiring generic quasar under-dilation also removes it as a wake-versus-Gordon discriminator:
+the surviving distinction is geometric, principallyDA =D and the (1 +z) distance-duality ratio rather
+than FLRW’s(1 +z)2.
+11 Forward and non-forward energy closure
+The non-forward ledger accounts explicitly for 16% rest-B beam depletion atz = 1, but the larger
+coherent energy transfer in Eq.(5) must be included in the same accounting. Atz = 1, half the emitted
+photon energy has left the observed photon through the forward frequency shift. The theory therefore
+owes the combined ledger
+Eemitted =Eforward,obs +Enonforward +Ebath +Estored, (36)
+with the stored wake energy remaining bounded under steady illumination.
+The microwave bath itself cannot be treated as a stationary fixed point if Eq.(2) is universal. For
+T0 = 2.7255 K anduCMB≃ 4.17× 10−13 erg cm−3, its direct frequency-drift term has magnitude
+KuCMB≃ 9.5× 10−31 erg cm−3 s−1, (37)
+whereas taking the optical+IR extragalactic background at roughly 50 nW m−2 sr−1 gives uopt∼
+2.1× 10−14 erg cm−3 and
+˙uopt→bath∼uoptK∼ 4.8× 10−32 erg cm−3 s−1. (38)
+The bath-drift term is therefore about twenty times larger than the identified optical injection. This is
+not a steady-maintenance problem if the bath itself evolves. Eq.(2) together with the static lookback
+law predicts
+TCMB(z) =T0(1 +z). (39)
+Atz = 2.41837, Eq.(39) gives 9.315 K; CO rotational excitation gives9.15± 0.72 K (Srianand et al.,
+2008). A broader CO+SZ analysis findsTCMB(z) = (2.725±0.002)(1+z)1−β K withβ =−0.007±0.027
+(Noterdaeme et al., 2011). Thus the measuredT (z) relation is a zero-additional-parameterconsistency
+success of the drift law, but not a discriminator: FLRW predicts the same scaling.
+Frequency drift alone does not preserve the absolute normalization of a blackbody in a static volume.
+Because a Planck photon number density scales asT 3, a self-similar drifting Planck bath requires a
+companion number-relaxation law
+d lnnγ
+dt =−3K (40)
+10
+(or an equivalent kinetic term) while the frequency coordinates drift at−K. The required number-
+changing process isnot identified in this paper. It must be broadband, shape preserving to FIRAS
+precision, and must not introduce observable attenuation or chromaticity into directed beams. A
+proposed low-frequency cutoff that simply exempts microwave photons is also disfavored independently:
+a thermal factor1−e−hν/kT would reduce the drag at the 1.420 GHz H I line to about 2.5% of its
+optical value, whereas ensemble 21-cm/UV absorber comparisons constrain differential radio/optical
+redshift behavior at the∼ 10−5 level (with individual astrophysical velocity offsets of order km s−1)
+(Tzanavaris et al., 2007). Such a cutoff is therefore not used.
+The combined bath picture generates explicit falsification gates:
+(i) the non-forward differential kerneld2σ/(dΩdE′) must not create redshift-correlated optical PSF
+wings or an optical/IR background excess;
+(ii) the direction-resolved reactive memory must saturate and relax rather than grow without bound;
+(iii) the number-changing/thermalization kinetics must preserve a Planck spectrum and its absolute
+normalization to FIRAS precision while allowing Eq. (39);
+(iv) the same bath dynamics must reproduce, not merely coexist with, the observed CMB acous-
+tic/polarization structure, lensing, and its relation to the BAO scale.
+COBE/FIRAS constrains RMS deviations from a blackbody to below roughly 50 ppm of the peak,
+with|y| < 15× 10−6 and|µ| < 9× 10−5 (Fixsen et al., 1996). A previous 25 Myr estimate based
+only on thermalizing injected optical energy remains an order-of-magnitude sub-gate for the injected
+component, but it does not close the larger number-normalization problem in Eq.(40). A microscopic
+model must compute the full collision operator and test FIRAS directly.
+The CMB is therefore treated here as adrifting self-similar bath, not as a stationary equilibrium
+field and not as a 3000 K last-scattering photosphere propagated through the localized-source surface-
+brightness relation. Its measured temperature-redshift law is consistent with the drift; its present-day
+Planck normalization and anisotropy structure remain active theoretical barriers. Planck’s final
+anisotropy data are well described by six-parameter baseΛCDM(Planck Collaboration, 2020). Until an
+alternative bath dynamics produces comparable spectral and angular structure, the present model is an
+incomplete cosmology even if its SN transfer law survives.
+12 Purpose-built photon-counting experiment
+The chromatic prediction can be tested more directly than conventional classification spectroscopy
+permits. Once a supernova is discovered and its redshift measured, a purpose-built telescope can
+monitor selected observer-frame passbands corresponding to fixed rest-frame spectral windows.
+A practical instrument would use a sufficiently large collecting mirror, dichroic splitting or narrow-
+band filters, and simultaneous APD/SPAD photon-counting channels. Red-enhanced silicon detectors
+cover much of the optical range; moderate-redshift monitoring of red rest-frame windows may require a
+near-IR counting channel. For a target at knownz,
+λfilt≃ (1 +z)λrest. (41)
+The experiment should avoid claims about isolated Ni/Co/Fe lines in broad SN spectra. Instead it can
+follow integrated phase-matched windows such as the iron-group-dominated 320–340 nm region and a
+620–680 nm red reference, plus ani/z/near-IR channel containing the secondary maximum.
+The core observable is a simultaneous photon-count ratio
+R12(t,z ) = N1(t,z )
+N2(t,z ). (42)
+11
+After throughput calibration with field standards and an internal source, the propagation law predicts
+R12(z)
+R12(0) = exp
+{
+−τ∞,B
+[√
+440
+λ1
+−
+√
+440
+λ2
+][
+1− (1 +z)−1/2
+]}
+, (43)
+with no new opacity amplitude fitted to this experiment. The cosmological component must be
+approximately phase-flat at matched rest wavelengths. A sufficiently precise null therefore kills the
+non-forwardλ−1/2 channel. High cadence simultaneously improves the temporal-clock test that DES
+could not decide.
+Before observing, the exact rest windows, filter widths, detector efficiencies, cadence, calibration-star
+protocol, estimator, redshift bins, and kill threshold should be preregistered. The instrument is useful
+precisely because it can return a meaningful null.
+13 Standalone falsification ledger
+Table 1: Current status of the principal claims. “Consistent” is
+not evidence favoring the model when FLRW predicts the same
+observable.
+Observable/test Current result Status and failure condition
+DES Hubble diagram ∆χ2 = +1.1 vs flat ΛCDM Near degeneracy on released SN distances; SN-only
+result, not a global cosmological fit.
+Achromatic spectral
+redshift
+common z across spectral
+features
+Required by coherent face; classical strongly chro-
+matic loss mechanisms excluded. Microscopic vertex
+rate K still owed.
+DES bulk duration b = 1.003± 0.005± 0.010 FLRW predictsb = 1; static model hasb =κr with
+κr empirically constrained≃ 1. Equality to unity is
+not yet derived microscopically.
+Spectral aging aging ∝ 1/(1 +z) Independent SN spectral clock; consistent with uni-
+versal remap and FLRW.
+Filter/Wien artifact wake off: |∆s|≤ 5× 10−4 Null result: proposed explanation falsified .
+Chromatic erosion cannot manufactureb = 1.
+T4 secondary maxi-
+mum
+b2 = 0.52± 0.78, N = 120 Inconclusive; contains 0 and 1. DES ca-
+dence/redshift range underpowered.
+Raw DES color trend −0.0963± 0.0140 mag/z vs
+intrinsic propagation+0.019
+Opposite raw sign, but selection trend is larger; com-
+pare data-minus-published selection simulation now,
+then matched alternative-reference BBC.
+Chromatic phase-flat
+ratio
+Q = 0.979/0.964/0.944 at
+z =.25/.5/1
+Open direct discriminator; amplitude fixed by Hubble
+fit. A precise phase-flat null killsλ−1/2 channel.
+Tolman distance frame static extrapolation gives
+nI≃ 2.30, nR≃ 1.45
+I crisis is frame fragile;R tension appears. Full per-
+galaxy reduction preregistered.
+Tolman band spread 0.78±0.21observed vs−0.02
+predicted
+Strongest current empirical threat(∼ 3.7σ be-
+fore modern systematics/evolution calculation).
+Population evolution static lookbackK−1 ln(1+z) V8 adopts evolving contents; must reproduce observed
+stellar/SFR/quasar evolution without fitting each ob-
+servable independently.
+Forward energy trans-
+fer
+z/(1 +z); 50% atz = 1 Major open ledger. Energy destination, bath number
+relaxation, and full kinetic closure must be derived.
+Non-forward beam de-
+pletion
+10.3% at z = .5, 16.0% at
+z = 1
+Differential angular/spectral kernel must satisfy halo
+and EBL limits.
+12
+Observable/test Current result Status and failure condition
+CMB temperature
+drift
+T (z) = T0(1 +z); 9.315 K
+predicted vs9.15±0.72 K at
+z = 2.418
+Consistency success shared with FLRW, not dis-
+crimination. Stationary 2.725 K bath at all lookbacks
+is excluded.
+FIRAS normalization < 50 ppm RMS;|µ| < 9×
+10−5
+Active theoretical barrier. Drifting Planck bath
+requires shape-preserving photon-number relaxation
+at rate 3K; mechanism not identified.
+CMB anisotropy/BAO not computed Major unresolved cross-sector test. Bath must
+reproduce acoustic/polarization/lensing structure and
+its relation to BAO.
+Two-face microphysics κr ≃ 1 empirically con-
+strained by DES
+Derive coherent inelastic drift, direction-resolved re-
+active response, bandwidth/relaxation, cell selection,
+and coefficient equality from one vacuum action; oth-
+erwise model remains effective phenomenology.
+14 What Version 8 establishes and what it does not
+Version 8 does not establish a static universe. It establishes something narrower but nontrivial: a
+specific static-geometry supernova model can be written without the two immediate defects that kill
+classical tired light—chromatic redshift andb = 0 time behavior—and can be confronted with modern
+DES data at essentially the same SN Hubble-diagram fit quality as flatΛCDM. The observational law
+is no longer an arbitrary curve: it comes with explicit timing, chromatic, angular-distance, radiance,
+and energy consequences.
+The adversarial process also removed attractive but false support. Passband/Wien erosion does not
+create time dilation. T4 did not confirm the universal remap; it was underpowered. The Tolman band
+spread is adverse. The raw DES color trend is opposite the intrinsic chromatic prediction but presently
+selection dominated. The forward energy loss is larger than the non-forward loss and creates a serious
+CMB number-normalization, thermalization, and anisotropy debt. These are not footnotes to be edited
+away; they define the remaining research program.
+The two-face sourcing model is the principal theoretical refinement. A universal coherent inelastic
+face supplies the frequency drift, while a direction-resolved phase-space susceptibility can remap intervals
+between independent photons without requiring one scalar wake to remember every transient crossing
+a spatial point. This resolves the earlier sourcing and cross-talk problems at the level of an effective
+transport model. It does not yet solve the microscopic problem: the same vacuum dynamics must
+produce the required universalK, the empirical reactive coefficientκr≃ 1, directional/polarization cell
+selection, appropriate bandwidth and relaxation, the3K bath number-relaxation companion, and the
+correct angular/spectral redistribution. If no such transport response can be derived, the model fails
+theoretically even if the one-dimensional SN fit remains good.
+Parsimony is therefore not claimed globally. Base ΛCDMhas its own parameter and modeling
+structure but is already tested across the CMB, BAO, lensing, growth, and nucleosynthesis. Removing
+dark-energy acceleration from the SN interpretation is a parsimony gain only if the replacement
+propagation physics ultimately closes with comparable or lower total structure. Version 8 leaves that
+comparison open.
+13
+15 Conclusion
+TheDES-SN5YRHubblediagramaloneremainsnearlyindifferentbetweenone-parameterflat ΛCDMand
+the one-parameter static two-channel distance law, with∆χ2 = +1.1. That is the empirical wedge, not
+the conclusion of the cosmology.
+The model now has a standalone causal timing formulation. The coherent inelastic face supplies
+the universal frequency drift of Eq.(2); temporal structure in a direction-resolved phase-space cell
+generates the separate group-delay response of Eq.(7), shared by later independent photons in that
+cell. The resulting temporal exponent isb =κr, and DES empirically constrainsκr≃ 1; FLRW predicts
+unity without this extra response coefficient. Deriving the equality of the two rates from microscopic
+dynamics is therefore a central theory-side target rather than a hidden assumption.
+The non-forward E1/2 channel supplies the fitted Hubble curvature and predicts a fixed, weak
+chromatic erosion. Its alternative use as an explanation for time dilation was explicitly tested and
+falsified. The preregistered T4 species-clock measurement was honestly inconclusive. The TolmanR−I
+spread remains the most immediate adverse optical test. The forward channel transfers 50% of photon
+energy byz = 1, making bath number normalization, thermalization, and CMB structure unavoidable
+parts of the same model rather than optional future topics.
+The next useful work is therefore sharply defined: execute the full preregistered Tolman re-reduction;
+perform the data-minus-DES-selection color comparison and ultimately the matched alternative-reference
+BBC simulation; derive the two-face vertex and its energy redistribution from the vacuum action;
+test the drifting bath and its number-relaxation kinetics against FIRAS and CMB anisotropies; and
+build the high-cadence multi-channel photon-counting experiment whose null can directly eliminate the
+chromatic channel.
+A theory that survives only because every contradiction is reclassified is scientifically empty. Version
+8 is organized to prevent that outcome: the model either closes these gates or it fails.
+Data, code, and version provenance
+The public DES-SN5YR light curves and v1.2 distance products are the observational basis of this
+work. The canonical code repository, effective-field notes, transfer-integral producers, preregistrations,
+T4 execution report, Tolman frame-shift analysis, forward-energy ledger, and instrument note are
+maintained at github.com/tracyphasespace/Static-Universe-DES-SN5YR.
+Version 8 is archived at DOI 10.5281/zenodo.22032094. Prior records are intentionally preserved
+rather than overwritten: Version 7 at 10.5281/zenodo.22031627, Draft 6 at 10.5281/zenodo.22031121,
+and Draft 5 at 10.5281/zenodo.22025329. The independent BBC/model-discrimination methods analysis
+is archived at DOI 10.5281/zenodo.22022089. These records document how adverse review, null tests,
+and implementation corrections changed the model.
+Acknowledgments
+The author thanks the Dark Energy Survey collaboration for making the light curves, simulations,
+covariance products, and analysis documentation public. AI-assisted tools were used for adversarial
+review, code checking, literature cross-checking, and manuscript drafting. Failed mechanisms, preregis-
+tration amendments, implementation defects, inconclusive measurements, and adverse tests are retained
+in the public record. The author is responsible for the hypotheses, calculations, interpretation, and
+final text.
+14
+References
+Bamber, C., Boege, S. J., Koffas, T., et al. 1999, Phys. Rev. D, 60, 092004.
+Blondin, S., Davis, T. M., Krisciunas, K., et al. 2008, ApJ, 682, 724, doi:10.1086/589568.
+Brewer, B. J., Lewis, G. F., & Li, Y. 2025, MNRAS, 537, 809, doi:10.1093/mnras/staf044.
+Burke, D. L., Field, R. C., Horton-Smith, G., et al. 1997, Phys. Rev. Lett., 79, 1626.
+Camilleri, R., Davis, T. M., Vincenzi, M., et al. 2024, MNRAS, 533, 2615.
+Srianand, R., Noterdaeme, P., Ledoux, C., & Petitjean, P. 2008, A&A, 482, L39, doi:10.1051/0004-
+6361:200809727.
+Noterdaeme, P., Petitjean, P., Srianand, R., Ledoux, C., & López, S. 2011, A&A, 526, L7,
+doi:10.1051/0004-6361/201016140.
+Tzanavaris, P., Murphy, M. T., Webb, J. K., Flambaum, V. V., & Curran, S. J. 2007, MNRAS, 374,
+634, doi:10.1111/j.1365-2966.2006.11171.x.
+Fixsen, D. J., Cheng, E. S., Gales, J. M., Mather, J. C., Shafer, R. A., & Wright, E. L. 1996, ApJ, 473,
+576.
+Hawkins, M. R. S. 2010, MNRAS, 405, 1940.
+Hsiao, E. Y., Conley, A., Howell, D. A., et al. 2007, ApJ, 663, 1187.
+Jack, D., Baron, E., & Hauschildt, P. H. 2015, MNRAS, 449, 3581, doi:10.1093/mnras/stv474.
+Lewis, G. F., & Brewer, B. J. 2023, Nature Astronomy, 7, 1265, doi:10.1038/s41550-023-02029-2.
+Lubin, L. M., & Sandage, A. 2001a, AJ, 122, 1071, doi:10.1086/322133.
+Lubin, L. M., & Sandage, A. 2001b, AJ, 122, 1084, doi:10.1086/322134.
+Madau, P., & Dickinson, M. 2014, ARA&A, 52, 415, doi:10.1146/annurev-astro-081811-125615.
+Planck Collaboration VI. 2020, A&A, 641, A6, arXiv:1807.06209.
+Sánchez, B. O., Brout, D., Vincenzi, M., et al. 2024, ApJ, 975, 5.
+Vincenzi, M., Brout, D., Armstrong, P., et al. 2024, ApJ, 975, 86.
+White, R. M. T., Davis, T. M., Lewis, G. F., et al. 2024, MNRAS, 533, 3365.
+Zwicky, F. 1929, Proc. Natl. Acad. Sci. USA, 15, 773.
+15

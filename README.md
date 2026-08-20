@@ -1,5 +1,12 @@
 # Static Universe DES-SN5YR — Two-Component Scattering
 
+> **AI agents / quick readers:** start with [`FOR_AI.md`](FOR_AI.md)
+> ("What is this? Do I care?") and the raw-URL machine index
+> [`llms.txt`](llms.txt). The full paper is AI-readable as
+> [LaTeX source](https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/paper/Static_Universe_DES_SN5YR_V8.tex)
+> or [plaintext](https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/paper/PAPER_V8_PLAINTEXT.txt)
+> — no JavaScript or PDF parsing required.
+
 Companion code repository for *"A Static-Universe Two-Channel Photon
 Propagation Model Confronted with DES-SN5YR"* (T. McSheery, **Version 8.0
 — human-circulation freeze**, 20 August 2026), published at DOI

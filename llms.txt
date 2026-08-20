@@ -1,0 +1,54 @@
+# Static-Universe-DES-SN5YR — AI-readable index (llms.txt)
+
+> A specified non-expanding (static Euclidean) two-channel photon-propagation
+> model tested adversarially against the DES-SN5YR Type Ia supernova release.
+> Headline: on the frozen DES-SN5YR v1.2 distance vector the static law fits
+> within Δχ² = +1.1 of flat ΛCDM (one shape parameter each); the paper carries
+> explicit falsification gates, adverse results included. It challenges the
+> inference that SN observations uniquely demonstrate accelerating expansion —
+> it does not claim a completed static cosmology.
+
+All URLs below are raw/static and readable without JavaScript.
+Raw base: https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/
+
+## The paper (Version 8.0, human-circulation freeze, 2026-08-20)
+
+- DOI landing: https://doi.org/10.5281/zenodo.22032094
+- PDF (direct): https://zenodo.org/records/22032094/files/Static_Universe_DES_SN5YR_V8_Zenodo.pdf
+- LaTeX source (full fidelity, best for AI): https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/paper/Static_Universe_DES_SN5YR_V8.tex
+- Plaintext extraction (convenience): https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/paper/PAPER_V8_PLAINTEXT.txt
+- Prior versions (provenance): V7 doi:10.5281/zenodo.22031627 · Draft 6 doi:10.5281/zenodo.22031121 · Draft 5 doi:10.5281/zenodo.22025329
+- Independent methods paper (no cosmological claim): doi:10.5281/zenodo.22022089 · repo https://github.com/tracyphasespace/Model-Discrimination-DES-SN5YR
+
+## Fast orientation
+
+- What/why one-pager: https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/FOR_AI.md
+- Repo README: https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/README.md
+- V8 freeze summary + status: https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/v8/README.md
+- Canonical claim-to-source map: https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/v7/README.md
+
+## Physics provenance documents (chronological record, draft6/)
+
+- Wake consistency (traveling-wake solution, two-faced vertex, stationarity fork): https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/draft6/docs/WAKE_CONSISTENCY.md
+- Forward energy ledger (50% at z=1; FIRAS t_therm < 25 Myr gate): https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/draft6/docs/FORWARD_ENERGY_LEDGER.md
+- d_A = D derivation + Tolman + color + radiance: https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/draft6/docs/DA_TOLMAN_DERIVATION.md
+- Spectral clocks (passband artifact self-falsified; Q(z) phase-flat test): https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/draft6/docs/SPECTRAL_CLOCKS.md
+- T4 run report (executed, inconclusive, full defect trail): https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/draft6/docs/T4_RUN_REPORT.md
+- Historical/superseded wake formulation: https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/draft6/docs/WAKE_FIELD_FORMULATION.md
+
+## Pre-registrations (committed before data inspection)
+
+- Tolman static-frame reduction (Branch Z/E + kill conditions): https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/draft6/prereg/tolman_static_reanalysis.md
+- T4 secondary-maximum clock (Amendments 1–3): https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/draft6/prereg/secondary_maximum_phase.md
+- DES-Dovekie recalibration rerun: https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/v8/DOVEKIE_RERUN_PREREG.md
+
+## Frozen numerical outputs
+
+- T4 result JSON (b2 = 0.52 ± 0.78, N = 120): https://raw.githubusercontent.com/tracyphasespace/Static-Universe-DES-SN5YR/master/v7/results/t4_secondary_max.json
+
+## Data
+
+- Raw DES griz light curves (8,293 candidates, sha256-verified) and DES v1.2
+  release fetch scripts: see the methods repository
+  https://github.com/tracyphasespace/Model-Discrimination-DES-SN5YR
+  (its numbers regenerate via 27-check manifest CI).
