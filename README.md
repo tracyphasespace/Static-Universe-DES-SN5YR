@@ -1,37 +1,49 @@
 # Static Universe DES-SN5YR — Two-Component Scattering
 
 Companion code repository for *"A Static-Universe Two-Channel Photon
-Propagation Model Confronted with DES-SN5YR"* (T. McSheery, **Draft 6.0,
-post-referee revision**, 20 August 2026), published at DOI
-[10.5281/zenodo.22031121](https://doi.org/10.5281/zenodo.22031121).
-The PDF is in [`paper/`](paper/) (md5-verified against the Zenodo deposit).
-Draft 6 supersedes Draft 5
-([10.5281/zenodo.22025329](https://doi.org/10.5281/zenodo.22025329), also
-kept in `paper/`).
+Propagation Model Confronted with DES-SN5YR"* (T. McSheery, **Version 7.0
+— standalone post-review synthesis**, 20 August 2026), published at DOI
+[10.5281/zenodo.22031627](https://doi.org/10.5281/zenodo.22031627).
+The PDF is in [`paper/`](paper/) (SHA-256-verified against the Zenodo
+deposit); the canonical V7 claim-to-source map is in [`v7/`](v7/).
+Prior records are preserved as provenance: Draft 6
+([10.5281/zenodo.22031121](https://doi.org/10.5281/zenodo.22031121)) and
+Draft 5
+([10.5281/zenodo.22025329](https://doi.org/10.5281/zenodo.22025329)),
+both PDFs kept in `paper/`.
 
 > **Draft 5 erratum — resolved in Draft 6:** the Draft 5 PDF's front
 > matter cited the methods paper's DOI as its own; Draft 6's front matter
 > carries the correct DOI chain (current 22031121, supersedes 22025329,
 > companion methods 22022089).
 
-The post-referee proof-ledger work behind Draft 6 —
-the d_A = D derivation and Etherington-duality signature, the wake wave
-equation (b = 1 as an identity), the self-falsified passband-artifact
-hypothesis, the pre-registered Tolman static-frame reduction, and the
+The proof-ledger work behind V7 — the d_A = D derivation and
+Etherington-duality signature, the two-faced forward vertex (temporal law
+Δt_obs = Δt_em·(1+z)^{κ_r} with κ_r ≃ 1 *measured*; the equality of
+timing and redshift rates is the open microscopic derivation, not an
+assumed identity), the self-falsified passband-artifact hypothesis, the
+pre-registered Tolman static-frame reduction (Branches Z and E), and the
 executed T4 species-clock test (inconclusive, fully disclosed) — is in
-[`draft6/`](draft6/), provenance-stamped.
+[`draft6/`](draft6/) (chronological record) with the canonical V7 map in
+[`v7/`](v7/).
 
 ## The two papers, and what lives where
 
 | paper | claim | code |
 |---|---|---|
 | [Methods paper](https://doi.org/10.5281/zenodo.22022089) ([repo](https://github.com/tracyphasespace/Model-Discrimination-DES-SN5YR)) | BBC-layer leverage measurement — no cosmological claim | Hubble-diagram fits, bracket, projection, probes, Camilleri amplitude comparison, manifest CI |
-| **This paper** ([Zenodo](https://doi.org/10.5281/zenodo.22031121), Draft 6) | the static two-channel propagation interpretation | this repository |
+| **This paper** ([Zenodo](https://doi.org/10.5281/zenodo.22031627), V7) | the static two-channel propagation interpretation | this repository |
 
 The papers are logically independent: the leverage measurement stands
 whatever one thinks of this interpretation.
 
-## Claim-to-script map — Draft 6 (paper section → source)
+## Claim-to-source map
+
+**Canonical (V7): see [`v7/README.md`](v7/README.md).** The map below is
+the Draft-6-era version, kept for the record; V7 renumbers sections and
+replaces the "b = 1 identity" framing with the measured κ_r coefficient.
+
+### Draft-6-era map (historical)
 
 | Draft 6 section | claim | source |
 |---|---|---|

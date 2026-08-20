@@ -1,3 +1,9 @@
+> **Chronological record of the Draft-6 cycle (2026-08-20).**
+> Superseded as the canonical map by [`../v7/`](../v7/) — V7 (DOI
+> 10.5281/zenodo.22031627) replaces the single-kernel "b = 1 identity"
+> framing with the two-faced vertex and measured κ_r ≃ 1. Files here are
+> preserved unmodified as provenance.
+
 # Draft 6 working analysis — the proof ledger
 
 Public support material for **Draft 6.0** of the static-universe paper —
