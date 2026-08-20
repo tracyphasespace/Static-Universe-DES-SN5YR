@@ -101,3 +101,67 @@ design, the Tolman verdict reverts to the I-band-like agreement. Either
 way the next step is data, not argument. Until K2 is executed, the
 ledger row reads: **"Tolman: FAILED (K1) — confound documented, K2
 pending."**
+
+---
+
+## ADDENDUM (2026-08-20, post-verdict): the prediction is reading-dependent — D-M re-opened with priced stakes
+
+Prompted by the author ("I thought we had that passing months ago"), the
+historical Tolman code was audited. The record contains FOUR different
+QFD Tolman predictions: n = 4 (`cosmology/photon-transport/tolman_test.py`,
+via an imported Etherington reciprocity d_A = D/(1+z)); n = 4
+(`validation_scripts/tolman_liouville_test.py`, Feb 2026, via Liouville
+phase-space conservation — this script also correctly killed the book's
+old S(z) ≈ (1+z)⁻³ arithmetic); n = 4/3 (`formalization/.../TolmanTest.lean`,
+an obsolete D_L = D(1+z)^{2/3} iteration); and n ≈ 2 + opacity (this
+session's DA_TOLMAN derivation, used for the K1 verdict above). The old
+"pass" was real but circular: assuming Etherington yields the FLRW law
+by construction, so FLRW-law data are matched automatically. Docket D-M
+(which of these is QFD's prediction) was logged PENDING-RULING and never
+ratified. **The K1 verdict above is therefore conditional on the
+session's derivation (reading A′).**
+
+**A new theorem sharpens the fork.** In a genuinely static geometry with
+photon-conserving transport and a saturated (steady-state) medium, a
+steady source's photon arrival rate MUST equal its emission rate: the
+source–observer pipeline has fixed length, so in steady state flux in =
+flux out. (FLRW evades this only because expansion stretches the
+pipeline, growing the in-transit population.) Consequently galaxies —
+steady sources — get no rate-dilation factor, and the truly-static
+prediction is n = 1 + opacity, NOT 2 + opacity. The A′ derivation's
+n ≈ 2.2 silently applied the SN transient's rate factor to steady
+light, which static geometry forbids. Rate dilation of steady sources
+is possible only under a secularly growing global index — the
+Gordon/coasting-expansion reading (B), which is what the old n = 4 code
+implicitly was.
+
+**The author's chromatic correction (this addendum's trigger) is
+adopted**: the K-corrected rest-band SB is carried by photons *emitted*
+at λ_obs/(1+z) = 365–463 nm, so the √E Kelvin depletion must be
+evaluated at the emitted wavelength. This raises the opacity term from
+≈ 0.20 to ≈ 0.26 and makes the A′ I-band agreement essentially exact
+(predicted 2.26 vs measured 2.28 ± 0.13, +0.2σ; R worsens slightly to
+−4.5σ). It cannot rescue the truly-static reading: bridging its I-band
+gap (1.26 → 2.28) chromatically needs ~5× the SN-fitted τ normalization,
+which would add ~0.8 mag of dimming to SNe at z = 1 and destroy the
+Hubble-diagram fit — the model's one-coefficient rigidity forbids it.
+(Energy destination — the cascade feeding the microwave bath — is the
+ledger story and is unaffected; SB counts surviving band photons.)
+
+**The priced fork (author's ruling required — this is D-M):**
+
+| reading | rate factor for steady sources | Tolman vs this reduction | quasars (Brewer n = 1.14 ± 0.34) | ontology |
+|---|---|---|---|---|
+| A: truly static (saturating wake) | forbidden (continuity theorem) | n_I pred 1.26 vs 2.28 ± 0.13 → **+7.9σ, dead** (n_R +1.4σ) | adverse (under-dilation) | static |
+| A′: this report's verdict basis | assumed (inconsistent with saturation for steady light) | I +0.2σ, R −4.5σ → K1 fired via R | neutral | static |
+| B: Etherington/Liouville (the old passing code) | yes (global drift) | n ≈ 4.2 pred; measured needs ΔM_evol ≈ 1.3 (R) / 0.7 (I) mag — ΛCDM-class, passes as ΛCDM does | passes | **linear-coasting expansion + two-channel opacity — no dark energy, but not static** |
+
+In every reading, the band spread (+0.76 ± 0.22 vs ≈ −0.02 predicted)
+remains the frame- and reading-invariant discrepancy, still 100%
+degenerate with the single-R-cluster K-correction systematic (K2
+pending). The Tolman test has done what it has always done historically:
+it kills static readings and spares expanding ones. Whether QFD is
+reading A (accept the kill) or reading B (rebrand the thesis to
+"coasting expansion with vacuum opacity, no dark energy" — under which
+the SN, Dovekie, quasar, and T(z) results all stand) is the D-M ruling,
+now the most consequential open decision in the program.
