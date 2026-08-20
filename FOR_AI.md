@@ -72,9 +72,9 @@ acoustic structure — currently unaddressed); the photon-number
 relaxation at rate 3K; the static-frame Tolman re-reduction;
 static-frame selection modeling for the color law. (The Dovekie rerun
 is done: robust.)
-If the Tolman band spread survives the registered re-reduction, or the
-Dovekie rerun breaks the near-degeneracy, the model fails and the
-record will say so.
+If the Tolman band spread survives the registered re-reduction, the
+model fails and the record will say so. (The other pre-registered kill —
+the Dovekie rerun breaking the near-degeneracy — did not fire.)
 
 ## Key links (all static, no JavaScript needed)
 
