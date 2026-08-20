@@ -62,12 +62,14 @@ modeling. See ADJUDICATION_2026-08-20B.md.)
 
 ## EXECUTED THIS SESSION (post-scoreboard, see ADJUDICATION_2026-08-20B)
 
-- **CANDELS Tolman K2**: NO kill — primary estimator failed its own
-  GoF (χ² = 13.1/2, non-monotonic μ̄); variants scatter 2.5 units of n
-  (systematics-dominated; third over-optimistic power forecast);
-  Kormendy-controlled variant 2.18 ± 0.18 (robustness lane, not
-  promoted). Band spread S = −1.51 ± 0.93: leans artifact,
-  non-decisive.
+- **CANDELS Tolman K2**: NO kill — the registered estimator was
+  **mis-specified**: band-per-z windows switch filters at bin
+  boundaries, injecting zero-point/PSF steps (diagnosis CONFIRMED: the
+  H-band-only medians are perfectly monotonic, 19.30 → 19.62 → 19.88 →
+  20.06). The fit is rejected by its own χ² (13.1/2), so no n value
+  from it is quoted. Band spread S = −1.51 ± 0.93: leans artifact,
+  non-decisive. A repaired K2b (single-band or cross-band-tied
+  zero-points) requires a fresh registration.
 - **Flux-selected angular rerun**: shape θ ≈ A/ln(1+z) robust without
   the FLRW mass cut (χ² = 2.34, N = 822; strict alternatives 9.6/10.4).
 

@@ -75,3 +75,13 @@ Etherington ratio d_L/d_A; the βs = −1.00 identity (an invariance
 observable); line-redshift concordance across bands; the K2-S
 band-spread statistic on rest-matched angular data. Finding more
 invariants outranks running more frame-valued fits.
+
+
+## 6. Standing rule: forecast honesty (adopted 2026-08-20)
+
+Three consecutive ~10x optimistic power forecasts (T4, K2-SB, σ(b₂))
+shared a cause: error budgets propagated measurement error while
+omitting intrinsic population scatter and selection covariance.
+**Rule: multiply every forecast σ by 3 before deciding whether a test
+is worth running.** Record the forecast and the realized σ in every run
+report so the multiplier can be recalibrated.
