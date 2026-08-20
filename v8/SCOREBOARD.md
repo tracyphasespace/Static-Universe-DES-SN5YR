@@ -11,7 +11,7 @@ transfer, B = coasting/Gordon.
 |---|---|---|
 | SN Hubble near-degeneracy (v1.2) | Δχ² = +1.1 vs flat ΛCDM, 1 param each | CI-locked; supports the identifiability thesis, not staticity itself |
 | **Dovekie rerun** (registered blind, unblinded on ruling) | **Δχ² = +1.8, robust band**; recovered Ωm = 0.330 = published; L_BBC −11.7 → −2.4 | strongest upgrade: survives independent recalibration; no longer a one-vector accident |
-| **Angular-size test** (registered) | early types: θ = A/ln(1+z), χ² = 0.93/3 dof, **zero shape freedom**; coasting/ΛCDM strict excluded +16–17; their rescue βs = −1.00 ≡ frame conversion | K2-ang FIRED for Euclidean d_A (A/A′ geometry); flux-selected rerun REQUIRED before decisive (mass-cut frame leak) |
+| **Angular-size test** (registered; DOWNGRADED per ADJUDICATION_2026-08-20B) | early types: measured shape θ = A/ln(1+z) (χ² = 0.93; robust to flux-only selection, χ² = 2.34, N = 822) | **consistent with Euclidean D_A + zero size evolution; exactly degenerate with FLRW + βs ≈ −1 (tautology: θ = R/D_A, only the ratio observed; cf. López-Corredoira 2010).** Frame-free discriminator (σ–M★) registered, not yet run. Coupled to the Tolman row — same D_A choice. |
 | BBC-leverage methods result | L_BBC = −11.7 (v1.2), verdict-dominating | published, CI-verified; methods thesis, model-agnostic |
 | b = 1 timing | κ_r ≃ 1 vs White 1.003 ± 0.005 | removes the classic tired-light kill; **fitted, not derived** (FLRW predicts it free) |
 | redshift achromaticity | line concordance passes | built into the forward channel |
@@ -53,10 +53,12 @@ transfer, B = coasting/Gordon.
 
 ## Symmetric-grading footnote (author's confirmation-bias point, quantified)
 
-Under OUR pre-committed evolution priors, expansion fails the same L&S
-Tolman test at −4.2σ (R). No model passes both bands without floated
-evolution. The Tolman scoreboard entries above are graded under rules we
-applied to ourselves first.
+(AMENDED: the −4.2σ figure is WITHDRAWN — the committed prior was a
+rest-B quantity applied to a rest-3600 Å measurement; the same
+wavelength error invalidates both Branch-E sub-verdicts. Surviving
+point: every Tolman verdict, ours and the literature's, is
+evolution-prior-dominated pending per-rest-wavelength population
+modeling. See ADJUDICATION_2026-08-20B.md.)
 
 ## OPEN / STAGED (in GO order)
 
