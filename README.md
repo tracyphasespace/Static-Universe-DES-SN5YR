@@ -106,3 +106,10 @@ Raw griz light curves for all 8,293 DES transient candidates are hosted
 [companion repository](https://github.com/tracyphasespace/Model-Discrimination-DES-SN5YR);
 DES-SN5YR release files are fetched pinned at tag v1.2. DES data © the DES
 Collaboration (public release). Code: MIT.
+
+## Acknowledgments
+
+The author would like to thank Anthropic, Google, and OpenAI for their
+excellent tools which enabled the scripts and mathematical assistance as
+well as collaborative/adversarial interactions to resolve the thousands
+of details at the speed of electrons.
