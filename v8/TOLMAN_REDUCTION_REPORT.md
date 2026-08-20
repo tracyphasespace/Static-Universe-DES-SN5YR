@@ -183,3 +183,23 @@ mainstream lives with both evolutions. EGG-19 (JWST counts/sizes)
 remains unscorable until D-M is ruled — but the angles sector is a
 genuine asset of the Euclidean reading and must be weighed against the
 Tolman sector's preference for B, not conceded silently.
+
+**Symmetric grading (author's confirmation-bias point, quantified):**
+L&S's own conclusion — "consistent with the reality of the expansion" —
+was reached by letting luminosity evolution float to whatever
+Bruzual–Charlot models could span (their required ΔM_evol: 0.88–1.08 mag
+in R, 0.32–0.49 in I; the R value is ~2.5× the fundamental-plane passive
+rate, and the 0.5–0.6 mag BAND DIFFERENTIAL they require exceeds typical
+single-burst color-evolution predictions). Graded by THIS report's own
+registered standard — the pre-committed Branch-E evolution priors we
+imposed on ourselves — **expansion fails its own Tolman test: predicted
+n_obs = 3.48 ± 0.13 (R) vs measured 2.59 ± 0.17 → −4.2σ; I-band −1.3σ.**
+Compare the static A′ + Branch E: R −0.6σ, I +3.2σ. The symmetric truth:
+NO reading — expansion included — passes both bands under pre-committed
+evolution; every reading passes if evolution floats per band. The Tolman
+test as the 2001 data stand mostly measures the evolution nuisance and
+the band systematics, which is why K2 (modern multi-band data) is the
+real arbiter for every model, not just ours. The asymmetry in the
+literature's verdicts ("expansion consistent", "tired light excluded")
+reflects which models were granted floated nuisances — the
+confirmation-bias structure the author flagged.
