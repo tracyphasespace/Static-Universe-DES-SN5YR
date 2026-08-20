@@ -153,7 +153,64 @@ model must therefore choose a fork, explicitly:
 Draft 6.1 should adopt Fork B openly or defend Fork A; silence invites
 the steady-state objection with its historical force.
 
-## 6. Disposition of the two reviews' Issue-1 bullets
+## 6. The sourcing trilemma (referee's conceded-and-sharpened Issue 1) and the two-faced vertex
+
+After withdrawing the distance-law objection, the referee posed the real
+question: what defines ξ = 0? Their trilemma: (1) if ξ counts from the
+first light ever to traverse the corridor, Kξ is order unity and n ~ 2
+returns for steady sources; (2) if the response saturates so n stays
+near 1 under long illumination, then ∂ₜn → 0 for steady light and
+*continuously emitting galaxies would not be redshifted* — the primary
+datum; (3) if the wake is per-wavepacket, incoherent photons share no
+memory and b = 0. "The wake must be shared across photons separated by
+weeks, sourced by the supernova's front but not accumulated from the
+host's prior light, and must still redshift steady emission."
+
+**The escape is the fourth option: one vertex with two faces.**
+
+- **Absorptive face (redshift):** every photon — steady or transient —
+  loses energy at the medium-set rate K through the inelastic forward
+  vertex. This is per-photon, always on, never saturates, and requires
+  no ∂ₜn at the photon. Steady galaxy light redshifts on this face;
+  horn (2) assumed redshift comes from the index and therefore fails.
+  The deposited energy flows to the bath (FORWARD_ENERGY_LEDGER.md).
+- **Reactive face (timing):** the corridor's index responds to
+  *changes* in illumination above the ambient steady state. Ancient
+  illumination has driven every corridor to its saturated ambient value
+  χ_ambient ≤ χ_sat ~ 10⁻¹¹ — so horn (1) fails: n never departs from
+  1 + O(10⁻¹¹) no matter how old the corridor. ξ = 0 is well defined in
+  a permanently illuminated universe: it is the onset of the
+  *transient* δI(t) = I_SN(t) above ambient, i.e. the start of the
+  linear-response window to the perturbation. The SN's own ramp is
+  shared by all its photons (horn 3 fails: the corridor field, not
+  wavepacket coherence, is the memory), while the host's prior light
+  lives in the already-saturated background and contributes no ramp.
+- **The b = 1 coefficient** is then the condition that the reactive
+  ramp rate equals the absorptive loss rate (∂ₜ ln n = K during the
+  unsaturated window) — the reactive-coefficient-unity /
+  Kramers-Kronig-type link between the two faces of the same vertex,
+  measured to f < 0.025 by White. A saturable nonlinear response is not
+  bound by linear KK, so this equality is a *derivation target*, not a
+  free assumption already discharged.
+
+This structure is falsifiable rather than ad hoc precisely because it
+**predicts redshift-without-dilation for steady sources** (saturated
+reactive face, active absorptive face) — impossible in FLRW and in any
+homogeneous-n(t) relabeling. The quasar under-dilation test is the
+direct observational probe of the two-faced structure itself.
+
+**Owed, consolidated (the referee's closing formulation is adopted —
+"the same question from four directions"):** derive from the QFD vacuum
+action a single vertex whose absorptive rate is the universal,
+intensity-independent K and whose reactive response is a saturable
+transient ramp with ∂ₜ ln n = K, T_relax ≫ months, χ_sat ~ 10⁻¹¹ —
+and whose relaxation products thermalize within 25 Myr (FIRAS), while
+the bath it feeds carries the observed anisotropy structure (acoustic
+peaks, BAO correlation, ISW/lensing/SZ — the referee's addition,
+logged: a locally fed bath owes phase-coherent peak structure, not just
+a Planck shape). Four constraints, one response function.
+
+## 7. Disposition of the two reviews' Issue-1 bullets
 
 | assertion | verdict |
 |---|---|
