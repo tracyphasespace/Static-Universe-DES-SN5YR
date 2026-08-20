@@ -60,22 +60,40 @@ point: every Tolman verdict, ours and the literature's, is
 evolution-prior-dominated pending per-rest-wavelength population
 modeling. See ADJUDICATION_2026-08-20B.md.)
 
+## EXECUTED THIS SESSION (post-scoreboard, see ADJUDICATION_2026-08-20B)
+
+- **CANDELS Tolman K2**: NO kill — primary estimator failed its own
+  GoF (χ² = 13.1/2, non-monotonic μ̄); variants scatter 2.5 units of n
+  (systematics-dominated; third over-optimistic power forecast);
+  Kormendy-controlled variant 2.18 ± 0.18 (robustness lane, not
+  promoted). Band spread S = −1.51 ± 0.93: leans artifact,
+  non-decisive.
+- **Flux-selected angular rerun**: shape θ ≈ A/ln(1+z) robust without
+  the FLRW mass cut (χ² = 2.34, N = 822; strict alternatives 9.6/10.4).
+
 ## OPEN / STAGED (in GO order)
 
-1. **CANDELS Tolman K2** — registered, blind, ready: separates
-   n = 1.2 / 2.2 / 4.0 at ≥ 5σ; **can select the D-M reading
-   empirically, symmetrically** (n ≈ 4 would kill both static readings).
-2. Flux-selected angular rerun (required to seal K2-ang).
+1. **σ–M★ frame-free dynamical test** — registered
+   (preregistration/sigma_mstar_test.md); the instrument that can
+   actually break the D_A ⊗ evolution degeneracy.
+2. Per-rest-wavelength evolution priors (population model) — required
+   before ANY Branch-E or symmetric-grading number is quoted again.
 3. Raw-photometry η refit (de-BBC the opacity constant).
-4. D-M ruling (author) — informed by 1–2.
-5. Microphysics debt: one vertex response function from β (absorptive
+4. Compact-ETG comoving number density under the static volume element
+   (second frame-breaking handle) — to be scoped/registered.
+5. D-M ruling (author) — now gated on 1 (and 4), since the angular
+   sector alone is degenerate.
+6. Microphysics debt: one vertex response function from β (absorptive
    K, reactive κ_r = 1, t_therm < 25 Myr, bath anisotropy).
-6. Future instruments: Q(z) phase-flat spectral test; EPM radiance;
-   APD photon-counting telescope; JWST z = 3–8 angular extension.
+7. Future instruments: Q(z) phase-flat spectral test; EPM radiance;
+   APD photon-counting telescope; JWST z = 3–8 angular extension;
+   η-vs-w₀wₐ registered comparison on Dovekie (referee item 2).
 
 **One-line summary:** the flux sector supports the identifiability
-thesis robustly; the geometric sector now leans measurably toward
-Euclidean d_A; the timing sector is consistent-but-fitted; the
-surface-brightness sector fired one conditional kill that the staged K2
-will settle; and the CMB microphysics remains the model's largest
-unpaid debt.
+thesis robustly; the geometric sector's shape is measured and robust
+but exactly degenerate between Euclidean-no-evolution and
+FLRW-with-βs ≈ −1 — the registered σ–M★ test is the degeneracy
+breaker; the timing sector is consistent-but-fitted; the
+surface-brightness sector's kills and rescues are all
+evolution-prior-dominated pending per-wavelength modeling; the CMB
+microphysics remains the largest unpaid debt.

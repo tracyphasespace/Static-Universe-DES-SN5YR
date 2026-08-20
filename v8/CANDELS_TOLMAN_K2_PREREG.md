@@ -82,3 +82,21 @@ This is the K2 anticipated by `tolman_static_reanalysis.md` and the
 the executed angular-size test, same subsample, the K-correction
 confound removed by design rather than modeled. Execution on the
 author's GO.
+
+
+---
+
+## RESULT (2026-08-20, appended post-execution)
+
+No kill fired. Primary: n = -0.03 +/- 0.27 with chi2 = 13.1/2 dof —
+the registered linear model fails its own goodness-of-fit
+(non-monotonic mu_med: 19.97 / 20.49 / 20.42 / 20.06); robustness
+variants span n = -0.36 to +2.18 (faint-quartile / narrow-mass /
+Kormendy-adjusted 2.18 +/- 0.18, the only acceptable chi2): the mu
+statistic is population/selection-confounded beyond forecast precision.
+K2-T-select: not fired (no clean selection; the Kormendy lane is not
+promoted per the no-third-narrative rule). K2-S: S = -1.51 +/- 0.93 —
+consistent with 0 (artifact) and the model (-0.03); 2.3 sigma from
+"L&S spread real" (+0.6). Leans artifact, non-decisive. Power forecast
+(sigma ~ 0.1) was ~10x optimistic — logged as the campaign's third
+optimistic forecast. Full adjudication: ADJUDICATION_2026-08-20B.md.
