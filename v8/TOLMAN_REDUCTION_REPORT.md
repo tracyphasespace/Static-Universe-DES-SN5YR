@@ -165,3 +165,21 @@ reading A (accept the kill) or reading B (rebrand the thesis to
 "coasting expansion with vacuum opacity, no dark energy" — under which
 the SN, Dovekie, quasar, and T(z) results all stand) is the D-M ruling,
 now the most consequential open decision in the program.
+
+**Angular-size counterweight (author's point, added same day):** the
+D-M docket entry itself records that "Ch 4's refractive-gradient
+gravity should decide it — light bending sets solid angles," and the
+angular-size sector pulls OPPOSITE to Tolman across the fork. Euclidean
+d_A = D predicts monotonically shrinking angular sizes — under which
+JWST's tiny high-z galaxies and the absence of a clean observed
+angular-size minimum are natural with NO size evolution. Reading B
+(coasting) has d_A = D/(1+z) with the classic 1930s-style FLRW
+turnover at z = e−1 ≈ 1.7, and explains small high-z sizes only by
+invoking strong intrinsic size evolution — exactly as ΛCDM does. The
+bind is symmetric: each reading needs "evolution" to explain the other
+sector (A: luminosity evolution can't save its Tolman deficit without
+rate dilation; B: size evolution to save its angles), and the FLRW
+mainstream lives with both evolutions. EGG-19 (JWST counts/sizes)
+remains unscorable until D-M is ruled — but the angles sector is a
+genuine asset of the Euclidean reading and must be weighed against the
+Tolman sector's preference for B, not conceded silently.
