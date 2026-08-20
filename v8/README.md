@@ -29,6 +29,21 @@ acceptance tests verified present in the published PDF:
    n = 1.14 ± 0.34 leads; quasars reframed as response-bandwidth
    constraints.
 
+**LaTeX source:** [`../paper/Static_Universe_DES_SN5YR_V8.tex`](../paper/Static_Universe_DES_SN5YR_V8.tex)
+(SHA-256 `7a00004226f309f2f7f03c05001ea8d61c317d1cd52ab3b2caae98f136bb350e`).
+
+**Scope note — DES-Dovekie (added 2026-08-20):** DES has superseded the
+original SN5YR cosmology products with the recalibrated **DES-Dovekie**
+analysis (Popovic et al. 2026, arXiv:2511.07517; flat-ΛCDM Ωm moves
+0.352 → 0.330 ± 0.015; upstream repository HEAD now carries
+`DES-Dovekie_HD.csv` + `STAT+SYS.npz`, 1820 SNe). V8's Δχ² = +1.1 is a
+statement about the frozen v1.2 vector, exactly as the paper says — all
+fetches in these repositories are pinned at tag v1.2, so the published
+results remain reproducible. The static-law rerun on the Dovekie vector
+is now the top-priority next empirical test and is **pre-registered
+before any data inspection**: [`DOVEKIE_RERUN_PREREG.md`](DOVEKIE_RERUN_PREREG.md)
+(frozen estimator, pre-committed reading bands, no-freedom clause).
+
 **Status: FROZEN for human circulation.** The three targeted reviewer
 questions (kinetic/nonlinear-optics theorist; CMB/cosmology expert;
 supernova observer) are in the checklist. No further synthetic-referee
