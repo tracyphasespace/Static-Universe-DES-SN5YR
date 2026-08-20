@@ -56,3 +56,33 @@ the FLRW framing — i.e., the recalibrated data moved *away* from the
 cosmological constant in the standard analysis. Whatever Δχ² the static
 law returns, the comparison target is flat ΛCDM on the same vector, per
 the frozen estimator; w₀wₐ comparisons are out of scope here.
+
+
+---
+
+## RESULT (2026-08-20, POST-UNBLIND — appended after the author's unblind ruling)
+
+Validation gate re-passed at run time (v1.2 manifest reproduced exactly:
+1640.1 / 1641.1, Delta chi2 = +1.1). Then, on the frozen Dovekie files
+(sha256 in data/dovekie/SHA256SUMS):
+
+- **N = 1820. chi2_LCDM = 1631.4 (Omega_m = 0.330). chi2_static = 1633.2
+  (eta = 0.332). Delta chi2 = +1.8.**
+- Pre-committed reading: |Delta chi2| <~ 5 -> **the near-degeneracy is
+  ROBUST to the independent DES recalibration.** No other reading applies.
+- Pipeline cross-check: the recovered Omega_m = 0.330 equals the published
+  Dovekie flat-LCDM value (0.330 +/- 0.015) independently of our model.
+- Parameter drift under recalibration: eta 0.297 -> 0.332 (~12%), Omega_m
+  0.352 -> 0.330 — both models absorbed the calibration shift; the
+  comparison did not move outside the band.
+- **Secondary (registered, descriptive): Dovekie pre-BBC margin = +4.2
+  (Omega_m = 0.394, eta = 0.215), so L_BBC = 1.8 - 4.2 = -2.4** — down
+  from -11.7 on v1.2. The correction layer's leverage on this comparison
+  fell by ~5x in the recalibrated release; released and pre-correction
+  margins are now same-sign and both within the robust band. The
+  methods-paper concern (correction-dominated comparison) is materially
+  reduced in Dovekie, which strengthens the robustness reading.
+
+Scope kept: flat LCDM is the frozen comparison target; Dovekie's own
+w0wa/evolving-DE analysis is out of scope. No amendments were needed; the
+estimator ran exactly as frozen.
