@@ -52,3 +52,22 @@ stated).
    stands unbroken and is reported as such.
 5. No-freedom clause; amendments labeled pre/post-data; anti-cherry-
    pick: both z bins and both frames reported together.
+
+
+---
+
+## Amendment 1 (2026-08-20, PRE-DATA — no dispersion values touched)
+
+External review found the registered ratio range understated. Exact
+computation from our own fitted constants (K = H0 = 70, Om = 0.33):
+D_A(static)/D_A(LCDM) = 2.30 (z=1.5), 2.79 (z=2.0); (d_L ratio)^2 =
+0.845 / 0.867. Required ratio:
+
+  (M_dyn/M*)_static / (M_dyn/M*)_LCDM = **2.72 (z=1.5), 3.22 (z=2.0)**
+
+replacing the registered "2.0-2.8". Against the local anchor (1.0-1.7)
+the Euclidean reading requires M_dyn/M* ~ 2.7-5.5 within R_e at
+z = 1.5-2 (inner dark fractions ~65-80%), opposite in sign to the
+dynamical-modeling literature's trend. Declared now: **this test looks
+likely to fire against the Euclidean reading, and will be run anyway.**
+The K-sigma kill condition applies to these corrected numbers.

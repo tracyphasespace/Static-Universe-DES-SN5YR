@@ -1,5 +1,11 @@
 # Static Universe DES-SN5YR — Two-Component Scattering
 
+> **CURRENT-STATE ADDENDUM (2026-08-20):** corrections and updates
+> post-publication — including that the methods paper's headline
+> L_BBC = −11.7 is **specific to the superseded v1.2 release** (Dovekie:
+> −2.4) — are consolidated in one page:
+> [`ADDENDUM_2026-08-20.md`](ADDENDUM_2026-08-20.md).
+
 > **AI agents / quick readers:** start with [`FOR_AI.md`](FOR_AI.md)
 > ("What is this? Do I care?") and the raw-URL machine index
 > [`llms.txt`](llms.txt). The full paper is AI-readable as
