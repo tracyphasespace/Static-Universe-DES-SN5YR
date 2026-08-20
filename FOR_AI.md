@@ -72,9 +72,15 @@ acoustic structure — currently unaddressed); the photon-number
 relaxation at rate 3K; the static-frame Tolman re-reduction;
 static-frame selection modeling for the color law. (The Dovekie rerun
 is done: robust.)
-If the Tolman band spread survives the registered re-reduction, the
-model fails and the record will say so. (The other pre-registered kill —
-the Dovekie rerun breaking the near-degeneracy — did not fire.)
+**Update (2026-08-20, post-freeze): the Tolman re-reduction has been
+executed and the registered kill FIRED.** In the static frame the I-band
+agrees (+0.9σ; the face-value 9.2σ exclusion was frame-fragile as
+predicted), but the R band fails at −3.8σ and no registered branch
+rescues the band spread — so the ledger row reads "Tolman: FAILED (K1);
+confound documented (band = single cluster with the study's largest
+K-correction); K2 independent-dataset test pending." The record keeps
+this adverse result exactly as obtained. (The Dovekie kill did not
+fire: Δχ² = +1.8, robust.)
 
 ## Key links (all static, no JavaScript needed)
 

@@ -58,7 +58,20 @@ iterations. The claim-to-source map of [`../v7/README.md`](../v7/README.md)
 remains valid for V8 (section numbering unchanged in substance); the
 frozen T4 output lives at `../v7/results/t4_secondary_max.json`.
 
-Research running in parallel without blocking circulation: the
-preregistered static-frame Tolman reduction
-([`../draft6/prereg/tolman_static_reanalysis.md`](../draft6/prereg/tolman_static_reanalysis.md),
-Branches Z/E + the L&S tired-light benchmark).
+**Tolman reduction EXECUTED (2026-08-20, post-freeze) — ADVERSE:
+K1 fires.** Full report: [`TOLMAN_REDUCTION_REPORT.md`](TOLMAN_REDUCTION_REPORT.md)
+(producer `src/tolman_reduction.py`, L&S 2001 source tables in
+`data_ls2001/`). Validation reproduced L&S's published values exactly
+(n_R 2.60 vs 2.59; n_I 3.37 vs 3.37). Static frame (their own Table 8
+tired-light conversion): **n_I = 2.28 ± 0.13 vs predicted 2.16 (+0.9σ —
+the face-value 9.2σ exclusion is dead, as forecast pre-reduction), but
+n_R = 1.52 ± 0.17 vs 2.18 (−3.8σ) → the model FAILS its primary
+registered Tolman test.** Branch E (committed evolution) does not
+rescue (I flips to +3.2σ). The irreducible obstruction is the band
+spread (+0.76 ± 0.22 vs ≈ 0 predicted) — 100% degenerate with a
+single-cluster systematic (R exists only in Cl 1604+4321, whose
+K(R) = 1.89 rest-UV correction is the study's most model-dependent).
+Classic tired light remains excluded (9.8σ). Per the registration, the
+ledger row reads: **"Tolman: FAILED (K1) — confound documented, K2
+(independent modern multi-band SB dataset) pending."** This is the
+program's first registered kill to fire, and it is reported as such.
