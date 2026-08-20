@@ -52,8 +52,11 @@ orthogonal tests must decide.
    and killed (e.g., "passband/Wien artifacts fake time dilation" —
    refuted at the 0.05% level with real DECam filter curves) is kept in
    the record as a null. Tests are pre-registered with kill conditions
-   before data inspection, including the just-registered rerun on DES's
-   own recalibrated **Dovekie** release.
+   before data inspection — including the rerun on DES's own
+   recalibrated **Dovekie** release, registered blind and now executed:
+   **Delta chi2 = +1.8** (robust band; recovered Omega_m = 0.330 matches
+   DES's published value). The near-degeneracy survived an independent
+   recalibration that moved the standard cosmology's own parameters.
 4. **Everything reproduces.** Raw light curves for all 8,293 DES
    candidates, pinned data fetches, producer scripts for every number,
    and a companion methods paper (DOI
@@ -66,8 +69,9 @@ Open, stated barriers: the microscopic vacuum response function (one
 function must deliver the universal drag rate K, the timing coefficient
 κ_r = 1, FIRAS-compatible thermalization within 25 Myr, and the CMB's
 acoustic structure — currently unaddressed); the photon-number
-relaxation at rate 3K; the static-frame Tolman re-reduction; the
-Dovekie rerun; static-frame selection modeling for the color law.
+relaxation at rate 3K; the static-frame Tolman re-reduction;
+static-frame selection modeling for the color law. (The Dovekie rerun
+is done: robust.)
 If the Tolman band spread survives the registered re-reduction, or the
 Dovekie rerun breaks the near-degeneracy, the model fails and the
 record will say so.

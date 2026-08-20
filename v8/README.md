@@ -40,9 +40,16 @@ analysis (Popovic et al. 2026, arXiv:2511.07517; flat-ΛCDM Ωm moves
 statement about the frozen v1.2 vector, exactly as the paper says — all
 fetches in these repositories are pinned at tag v1.2, so the published
 results remain reproducible. The static-law rerun on the Dovekie vector
-is now the top-priority next empirical test and is **pre-registered
-before any data inspection**: [`DOVEKIE_RERUN_PREREG.md`](DOVEKIE_RERUN_PREREG.md)
-(frozen estimator, pre-committed reading bands, no-freedom clause).
+was **pre-registered before any data inspection and has now been
+executed** ([`DOVEKIE_RERUN_PREREG.md`](DOVEKIE_RERUN_PREREG.md), result
+appended post-unblind): **Delta chi2 = +1.8** (N = 1820; recovered
+Omega_m = 0.330 matches the published Dovekie value; eta = 0.332). Per
+the pre-committed band |Delta chi2| <= ~5, **the near-degeneracy is
+robust to the independent DES recalibration** — no longer attributable
+to one released vector. Secondary registered measurement: the BBC-layer
+leverage on this comparison fell from -11.7 (v1.2) to **-2.4**
+(Dovekie); released and pre-correction margins are now same-sign and
+both within the band.
 
 **Status: FROZEN for human circulation.** The three targeted reviewer
 questions (kinetic/nonlinear-optics theorist; CMB/cosmology expert;
