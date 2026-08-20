@@ -1,16 +1,19 @@
 # Static Universe DES-SN5YR — Two-Component Scattering
 
 Companion code repository for *"A Static-Universe Two-Channel Photon
-Propagation Model Confronted with DES-SN5YR"* (T. McSheery, **Version 7.0
-— standalone post-review synthesis**, 20 August 2026), published at DOI
-[10.5281/zenodo.22031627](https://doi.org/10.5281/zenodo.22031627).
+Propagation Model Confronted with DES-SN5YR"* (T. McSheery, **Version 8.0
+— human-circulation freeze**, 20 August 2026), published at DOI
+[10.5281/zenodo.22032094](https://doi.org/10.5281/zenodo.22032094).
 The PDF is in [`paper/`](paper/) (SHA-256-verified against the Zenodo
-deposit); the canonical V7 claim-to-source map is in [`v7/`](v7/).
-Prior records are preserved as provenance: Draft 6
+deposit); the V8 freeze summary is in [`v8/`](v8/) and the canonical
+claim-to-source map in [`v7/`](v7/). Prior records are preserved as
+provenance: V7
+([10.5281/zenodo.22031627](https://doi.org/10.5281/zenodo.22031627)),
+Draft 6
 ([10.5281/zenodo.22031121](https://doi.org/10.5281/zenodo.22031121)) and
 Draft 5
 ([10.5281/zenodo.22025329](https://doi.org/10.5281/zenodo.22025329)),
-both PDFs kept in `paper/`.
+all PDFs kept in `paper/`.
 
 > **Draft 5 erratum — resolved in Draft 6:** the Draft 5 PDF's front
 > matter cited the methods paper's DOI as its own; Draft 6's front matter
@@ -32,7 +35,7 @@ executed T4 species-clock test (inconclusive, fully disclosed) — is in
 | paper | claim | code |
 |---|---|---|
 | [Methods paper](https://doi.org/10.5281/zenodo.22022089) ([repo](https://github.com/tracyphasespace/Model-Discrimination-DES-SN5YR)) | BBC-layer leverage measurement — no cosmological claim | Hubble-diagram fits, bracket, projection, probes, Camilleri amplitude comparison, manifest CI |
-| **This paper** ([Zenodo](https://doi.org/10.5281/zenodo.22031627), V7) | the static two-channel propagation interpretation | this repository |
+| **This paper** ([Zenodo](https://doi.org/10.5281/zenodo.22032094), V8) | the static two-channel propagation interpretation | this repository |
 
 The papers are logically independent: the leverage measurement stands
 whatever one thinks of this interpretation.
