@@ -104,6 +104,12 @@ Correction, without erasing the original registration:
   (Balmer/fundamental-plane data) can be tested against K⁻¹ln(1+z) vs
   FLRW lookback — an independent test, to be registered separately if
   pursued.
+- **Benchmark added (pre-reduction, per review):** the reduction will be
+  compared directly against Lubin & Sandage's own published tired-light
+  computation (Papers III/IV), not only against the q₀-grid
+  extrapolation — noting that their tired-light case (no time dilation,
+  b = 0) is not this model (b = 1 wake + energy loss ⇒ n_eff ≈ 2.2), so
+  the comparison must be recomputed, not transcribed.
 
 ## 3. Kill conditions (pre-committed)
 
